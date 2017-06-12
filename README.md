@@ -1018,7 +1018,7 @@ A Subset for __Architecture and Infrastructure__
 	* [vue-cli](https://www.npmjs.com/package/vue-cli)
 	* [JavaScript Stack from Scratch](https://github.com/verekia/js-stack-from-scratch)
 * GUI Architectures
-  * Comparision
+  * Comparison
     * [Scaling Isomorphic Javascript Code](https://blog.nodejitsu.com/scaling-isomorphic-javascript-code/)
     * [Comparison of Architecture presentation patterns MVP(SC),MVP(PV),PM,MVVM and MVC](https://www.codeproject.com/Articles/66585/Comparison-of-Architecture-presentation-patterns-M)
     * [Unidirectional User Interface Architectures](https://staltz.com/unidirectional-user-interface-architectures.html)

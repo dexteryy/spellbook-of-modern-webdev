@@ -579,7 +579,6 @@ A Subset for __Architecture and Infrastructure__
 	* Intro
 		* [Why use static types in JavaScript?](https://medium.freecodecamp.com/why-use-static-types-in-javascript-part-1-8382da1e0adb)
 		* [You Might Not Need TypeScript (or Static Types)](https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b)
-		* [Adopting Flow & TypeScript](http://thejameskyle.com/adopting-flow-and-typescript.html)
 	* [Flow](https://flow.org/en/docs/)
 	  * [Flow Runtime](https://codemix.github.io/flow-runtime/)
 	  * [Flow Comments](https://flow.org/blog/2015/02/20/Flow-Comments/)

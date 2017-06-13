@@ -573,7 +573,7 @@ A Subset for __Architecture and Infrastructure__
   * [A General Theory of Reactivity](https://github.com/kriskowal/gtor)
   * [Learn RxJS](https://www.learnrxjs.io/)
     * [Rx Book](http://xgrommx.github.io/rx-book/index.html)
-    * [Functional Programming in Javascript](http://reactivex.io/learnrx/)
+    * [Functional Programming in JavaScript](http://reactivex.io/learnrx/)
     * [RxMarbles](http://rxmarbles.com/)
 * Static Typing
 	* Intro
@@ -647,8 +647,8 @@ A Subset for __Architecture and Infrastructure__
   * Performance - [Six Speed](https://kpdecker.github.io/six-speed/)
 * Proposal Status
 	* [W3C WG](https://www.w3.org/Consortium/activities#Working) (World Wide Web Consortium Working Groups)
-		* [Web Platform Publication Status](https://www.w3.org/WebPlatform/WG/PubStatus)  
-		  * [Javascript APIs](https://www.w3.org/standards/techs/js), [Mobile Web Applications](https://www.w3.org/standards/techs/mobileapp), [CSS](https://www.w3.org/standards/techs/css)
+		* [Web Platform Publication Status](https://www.w3.org/WebPlatform/WG/PubStatus)
+		  * [JavaScript APIs](https://www.w3.org/standards/techs/js), [Mobile Web Applications](https://www.w3.org/standards/techs/mobileapp), [CSS](https://www.w3.org/standards/techs/css)
 		* [CSS current work](https://www.w3.org/Style/CSS/current-work)
 		* [Current HTML5 Specifications](http://html5-overview.net/current)
 		* Inside
@@ -966,7 +966,7 @@ A Subset for __Architecture and Infrastructure__
 		* Learning
 			* [Notes of Dan Abramov's Redux course videos](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
 			* [A cartoon intro to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
-			* [Tic-Tac-Toe.js: redux pattern in plain javascript](http://ramonvictor.github.io/tic-tac-toe-js/)
+			* [Tic-Tac-Toe.js: redux pattern in plain JavaScript](http://ramonvictor.github.io/tic-tac-toe-js/)
 		* Utilities
 			* [React Redux](https://www.npmjs.com/package/react-redux)
 			* [Redux Form](http://redux-form.com/)
@@ -1018,7 +1018,7 @@ A Subset for __Architecture and Infrastructure__
 	* [JavaScript Stack from Scratch](https://github.com/verekia/js-stack-from-scratch)
 * GUI Architectures
   * Comparison
-    * [Scaling Isomorphic Javascript Code](https://blog.nodejitsu.com/scaling-isomorphic-javascript-code/)
+    * [Scaling Isomorphic JavaScript Code](https://blog.nodejitsu.com/scaling-isomorphic-javascript-code/)
     * [Comparison of Architecture presentation patterns MVP(SC),MVP(PV),PM,MVVM and MVC](https://www.codeproject.com/Articles/66585/Comparison-of-Architecture-presentation-patterns-M)
     * [Unidirectional User Interface Architectures](https://staltz.com/unidirectional-user-interface-architectures.html)
     * [Change And Its Detection In JavaScript Frameworks](http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html)
@@ -1143,7 +1143,7 @@ A Subset for __Architecture and Infrastructure__
 		* [React Sticky](https://www.npmjs.com/package/react-sticky)
 		* [React Headroom](https://www.npmjs.com/package/react-headroom) / [Headroom.js](https://www.npmjs.com/package/headroom.js)
 		* [React Infinite Scroller](https://www.npmjs.com/package/react-infinite-scroller) / [React Infinite](https://www.npmjs.com/package/react-infinite)
-		* [React Lazyload](https://www.npmjs.com/package/react-lazyload)  
+		* [React Lazyload](https://www.npmjs.com/package/react-lazyload)
 	* [React Pull to Refresh](https://www.npmjs.com/package/react-pull-to-refresh)
 	* Smooth Scrolling - [React Scroll](https://www.npmjs.com/package/react-scroll)
 	* Scrollable - [React iScroll](https://www.npmjs.com/package/react-iscroll) / [iScroll](http://iscrolljs.com/) / [Zynga Scroller](http://zynga.github.io/scroller/)
@@ -2052,7 +2052,7 @@ A Subset for __Architecture and Infrastructure__
 * Shell
 	* [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
   * Zsh Plugins
-    * [zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion)  
+    * [zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion)
     * [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins)
 * Vim
   * [Vimtutor](http://linuxcommand.org/man_pages/vimtutor1.html)

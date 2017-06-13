@@ -111,7 +111,7 @@ __Table of Contents__
 		- BaaS (CRUD, Auth, Search, Email, SMS...)
 		- AIaaS / BDaaS (Natural Language, Computer Vision...)
 	- [Cloud Services (China)](#cloud-services-china)
-		- The evil twins inside the Great Firewall of China
+		- The evil twins inside [the Great Firewall of China](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/4)
 - [Tooling](#tooling)
 	- [Testing](#testing)
 		- Unit Testing / Test Runner, Test Doubles
@@ -1633,7 +1633,7 @@ A Subset for __Architecture and Infrastructure__
 
 ### Cloud Services (China)
 
-> The evil twins inside the Great Firewall of China
+> The evil twins inside [the Great Firewall of China](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/4)
 
 * Compute
 	* FaaS / Serverless / WebHook

@@ -54,7 +54,7 @@ __Table of Contents__
 	- [Next Generation CSS](#next-generation-css)
 		- CSS Module, PostCSS, CSS in JS
 		- Best Practices (Skeleton, Methodology, Code Style...)
-		- Web Design (RWD, Atomic Design, Grid System, Typography, Style Guide...)
+		- Know More about Web Design / UI Design / UX Design (RWD, Atomic Design, Motion Design, Grid System, Typography, Style Guide...)
 	- [Next Generation JS](#next-generation-js)
 		- ES6+ Features, Intro to ES6+, Re-intro to JS, Important Proposals, Functional Programming, FRP, Static Typing, Code Style...
 	- [Node.js](#nodejs)
@@ -357,7 +357,7 @@ A Subset for __Architecture and Infrastructure__
 	* [An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
 	* [@supports Rule (Feature Queries)](https://www.sitepoint.com/an-introduction-to-css-supports-rule-feature-queries/)
 * Responsive Web Design
-	* Intro - see _[Platforms and Languages > Next Generation CSS](#next-generation-css) > Web Design_
+	* Intro - see _[Platforms and Languages > Next Generation CSS](#next-generation-css) > Know More about Web Design_
 	* Media Queries
 	  * [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 	* Images
@@ -449,7 +449,7 @@ A Subset for __Architecture and Infrastructure__
 		* CSS + HTML
 			* [Isobar Front-end Code Standards](http://isobar-idev.github.io/code-standards/)
 			* [Code Guide by @mdo](http://codeguide.co/)
-* Web Design
+* Know More about Web Design / [UI Design / UX Design](https://medium.com/@Mockplus/ux-vs-ui-vs-ia-vs-ixd-4-confusing-digital-design-terms-defined-ebd679f53f2)
 	* Responsive/Adaptive Web Design
 		* [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ui/responsive/) /\
 			[Responsive Web Design: What It Is And How To Use It](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
@@ -465,6 +465,9 @@ A Subset for __Architecture and Infrastructure__
 		* [The Atomic Workflow — People, Process, And Making Design Systems Happen](https://www.smashingmagazine.com/atomic-design-workflow/)
 		* [The “Other” Interface: Atomic Design With Sass](https://www.smashingmagazine.com/2013/08/other-interface-atomic-design-sass/)
 		* [Atomic Design – Your Ultimate Guide to Scalable & Modular CSS (Sass)](https://blog.alexdevero.com/atomic-design-scalable-modular-css-sass/)
+	* Motion Design
+		* [Creating Usability with Motion: The UX in Motion Manifesto](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc)
+		* [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
 	* Grid System - [A Comprehensive Introduction to Grids in Web Design](https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521)
 		* calc() grid system - [Lost Grid](http://lostgrid.org/)
 		* flexbox grid system - [Flexbox Grid](http://flexboxgrid.com/)

@@ -482,7 +482,7 @@ A Subset for __Architecture and Infrastructure__
   * Style Guide
     * [Style Guide Driven Development / Living Style Guides](http://styleguides.io/)
     * Tools - see _[Tooling > Documentation](#documentation) > Style Guide_
-    * Examples
+    * Reference
       * Apple's [Human Interface Guidelines](https://developer.apple.com/design/)
       * Google's [Material Design](https://material.io/)
       * Microsoft's [Fluent Design System](http://fluent.microsoft.com/)
@@ -537,14 +537,14 @@ A Subset for __Architecture and Infrastructure__
       * [The Evolution of JavaScript Modularity](https://github.com/myshov/history-of-javascript/tree/master/4_evolution_of_js_modularity)
       * [About object-oriented design and the “class” & “extends” keywords in ES6](http://blog.wolksoftware.com/about-classes-inheritance-and-object-oriented-design-in-typescript-and-es6)
       * [JavaScript Regular Expression Enlightenment](http://codylindley.com/techpro/2013_05_14__javascript-regular-expression-/)
-  * Books:
+  * Books
     * [Eloquent JavaScript](http://eloquentjavascript.net/)
     * [Speaking JavaScript](http://speakingjs.com/es5/)
     * [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
 * Reference
   * [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
   * [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-* Important Proposals:
+* Important Proposals
   * [ES Modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358) in [Browsers](https://jakearchibald.com/2017/es-modules-in-browsers/) and [Node.js](https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e)
   * [Class Fields & Static Properties](https://github.com/tc39/proposal-class-public-fields/issues/46#issuecomment-239031422)
   * [Decorators](https://github.com/wycats/javascript-decorators)
@@ -623,7 +623,7 @@ A Subset for __Architecture and Infrastructure__
 * Web
   * Platform Status
     * [Can I Use](http://caniuse.com/)
-    * [Chrome](https://www.chromestatus.com/features), [WebKit](https://webkit.org/status/), [Firefox](https://platform-status.mozilla.org/), [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/), [TBS](http://x5.tencent.com/tbs/guide/w3c.html)
+    * [Chrome](https://www.chromestatus.com/features), [WebKit](https://webkit.org/status/), [Firefox](https://platform-status.mozilla.org/), [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/), [TBS (China)](http://x5.tencent.com/tbs/guide/w3c.html)
   * Platform Releases
     * [Chrome](https://chromereleases.googleblog.com/), [Safari](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Introduction/Introduction.html) ([Webkit](https://trac.webkit.org/)), [Firefox](https://www.mozilla.org/en-US/firefox/releases/), [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/)
   * Platform Updates
@@ -940,14 +940,14 @@ A Subset for __Architecture and Infrastructure__
         * [React Bits](https://github.com/vasanthk/react-bits), [React in patterns](https://github.com/krasimir/react-in-patterns)
         * [Functional UI and Components as Higher Order Functions](https://blog.risingstack.com/functional-ui-and-components-as-higher-order-functions/)
       * Next Gen - [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
-    * Component Utils
+    * Component Utilities
       * [Recompose](https://github.com/acdlite/recompose)
       * [React Display Name](https://www.npmjs.com/package/react-display-name)
       * [React Side Effect](https://www.npmjs.com/package/react-side-effect)
       * [React Komposer](https://www.npmjs.com/package/react-komposer)
       * [React Loadable](https://www.npmjs.com/package/react-loadable)
       * [React CSS Themr](https://www.npmjs.com/package/react-css-themr)
-    * DOM Utils
+    * Browser Utilities
       * [React Event Listener](https://www.npmjs.com/package/react-event-listener)
       * [React onClickOutside](https://www.npmjs.com/package/react-onclickoutside)
       * [React Responsive](https://www.npmjs.com/package/react-responsive)
@@ -956,10 +956,10 @@ A Subset for __Architecture and Infrastructure__
       * [React Measure](https://www.npmjs.com/package/react-measure)
       * [React Copy to clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)
       * [React Cookie](https://www.npmjs.com/package/react-cookie)
-    * Lightweight
+    * Use React Alone
       * [Redial](https://www.npmjs.com/package/redial) / [React Refetch](https://www.npmjs.com/package/react-refetch)
       * [Formsy React](https://www.npmjs.com/package/formsy-react) / [React Form](https://www.npmjs.com/package/react-form)
-    * Alternative
+    * Lightweight Alternative
       * [Preact](https://preactjs.com/) / [Inferno](https://infernojs.org/)
   * [Angular](https://angular.io/)
   * [Vue.js](https://vuejs.org/)
@@ -997,8 +997,7 @@ A Subset for __Architecture and Infrastructure__
     * [Say Hello to Offline First](http://hood.ie/blog/say-hello-to-offline-first.html), \
       [Offline First and the Circle Of Web](http://hood.ie/blog/offline-first-and-the-circle-of-web.html), [Part II: Breaking the Circle](http://hood.ie/blog/offline-first-and-the-circle-of-web-part-ii-breaking-the-circle.html)
 * Routing
-  * [React Router](https://reacttraining.com/react-router/)
-  * [React Router Redux](https://www.npmjs.com/package/react-router-redux)
+  * [React Router](https://reacttraining.com/react-router/), [React Router Redux](https://www.npmjs.com/package/react-router-redux)
   * [React Helmet](https://www.npmjs.com/package/react-helmet)
 * i18n
   * [React Intl](https://github.com/yahoo/react-intl) / [React i18next](https://react.i18next.com)
@@ -1067,24 +1066,28 @@ A Subset for __Architecture and Infrastructure__
   * Dashboard - [React Grid Layout](https://www.npmjs.com/package/react-grid-layout)
 * Icon
   * [React Icons](https://www.npmjs.com/package/react-icons) / [Material Design Icons](http://google.github.io/material-design-icons/) / [Bytesize Icons](https://www.npmjs.com/package/bytesize-icons)
+* Progress
+  * [React Redux Loading Bar](https://www.npmjs.com/package/react-redux-loading-bar) / [NProgress](https://www.npmjs.com/package/nprogress)
 * Button
   * [Buttons](http://unicorn-ui.com/buttons/)
   * Indicators - [React Ladda](https://www.npmjs.com/package/react-ladda) / [Ladda](http://lab.hakim.se/ladda/) / [React Progress Button](https://www.npmjs.com/package/react-progress-button)
-  * [React Tabs](https://www.npmjs.com/package/react-tabs)
 * Accordion
   * [React Sanfona](https://www.npmjs.com/package/react-sanfona)
   * [React Collapse](https://www.npmjs.com/package/react-collapse)
-* Progress
-  * [React Redux Loading Bar](https://www.npmjs.com/package/react-redux-loading-bar) / [NProgress](https://www.npmjs.com/package/nprogress)
-* Form
+* Picker
+  * [React Tabs](https://www.npmjs.com/package/react-tabs)
   * [React Select](http://jedwatson.github.io/react-select/)
-  * [React Toggle](https://www.npmjs.com/package/react-toggle)
   * [React Radio Group](https://www.npmjs.com/package/react-radio-group)
   * [RC Slider](https://www.npmjs.com/package/rc-slider) / [React Slider](https://www.npmjs.com/package/react-slider) / [React Input Range](https://www.npmjs.com/package/react-input-range)
+  * [React Color](http://casesandberg.github.io/react-color/)
+  * [React Datepicker](https://hacker0x01.github.io/react-datepicker/) / [React Datetime](https://www.npmjs.com/package/react-datetime) / [React Day Picker](http://react-day-picker.js.org/) / [React Dates](https://www.npmjs.com/package/react-dates) / [Pikaday](https://www.npmjs.com/package/pikaday)
+* Input
+  * [React Toggle](https://www.npmjs.com/package/react-toggle)
   * [React Input Autosize](https://www.npmjs.com/package/react-input-autosize), [React Textarea Autosize](https://www.npmjs.com/package/react-textarea-autosize)
   * [React Tag Input](https://www.npmjs.com/package/react-tagsinput)
   * [React Autosuggest](https://www.npmjs.com/package/react-autosuggest)
   * Auto-formatting - [React MaskedInput](https://www.npmjs.com/package/react-maskedinput) / [React Text Mask](https://www.npmjs.com/package/react-text-mask) / [Cleave.js](https://www.npmjs.com/package/cleave.js)
+* Form
   * [React JSON Schema Form](https://www.npmjs.com/package/react-jsonschema-form)
 * Overlay
   * [React Overlays](https://www.npmjs.com/package/react-overlays)
@@ -1094,9 +1097,6 @@ A Subset for __Architecture and Infrastructure__
   * Drawer - [React Burger Menu](http://negomi.github.io/react-burger-menu/) / [React Sidebar](https://www.npmjs.com/package/react-sidebar) / [React Dock](https://www.npmjs.com/package/react-dock)
   * [React ContextMenu](https://www.npmjs.com/package/react-contextmenu)
   * [React Block UI](https://availity.github.io/react-block-ui/)
-* Picker
-  * [React Color](http://casesandberg.github.io/react-color/)
-  * [React Datepicker](https://hacker0x01.github.io/react-datepicker/) / [React Datetime](https://www.npmjs.com/package/react-datetime) / [React Day Picker](http://react-day-picker.js.org/) / [React Dates](https://www.npmjs.com/package/react-dates) / [Pikaday](https://www.npmjs.com/package/pikaday)
 * Content
   * Carousel - [React Slick](https://www.npmjs.com/package/react-slick) / [Nuka Carousel](https://www.npmjs.com/package/nuka-carousel)
   * [React Paginate](https://www.npmjs.com/package/react-paginate)
@@ -1356,14 +1356,14 @@ A Subset for __Architecture and Infrastructure__
 
 ### Server-side Best Practices
 
+* SaaS
+  * [The Twelve-Factor App](https://12factor.net/)
 * Restful API
   * Heroku's [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/), \
     Microsoft's [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design), [REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md), \
     [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api), \
     [Principles of good RESTful API Design](https://codeplanet.io/principles-good-restful-api-design/)
   * [Introducing JSON](http://json.org/)
-* SaaS
-  * [The Twelve-Factor App](https://12factor.net/)
 * Microservices
   * [A pattern language for microservices](http://microservices.io/patterns/index.html)
     * [Microservice Architecture](http://microservices.io/patterns/microservices.html), [Monolithic Architecture](http://microservices.io/patterns/monolithic.html)

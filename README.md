@@ -1195,7 +1195,8 @@ A Subset for __Architecture and Infrastructure__
       * [React Overdrive](https://www.npmjs.com/package/react-overdrive)
     * Anything
       * [Anime.js](http://anime-js.com/documentation/)  /  [React Anime](https://www.npmjs.com/package/react-anime)
-      * [shifty](https://www.npmjs.com/package/shifty) / [tween.js](https://github.com/tweenjs/tween.js/)
+      * Between Shapes - [flubber](https://www.npmjs.com/package/flubber)
+      * Lightweight Tweening Engine - [shifty](https://www.npmjs.com/package/shifty) / [tween.js](https://github.com/tweenjs/tween.js/)
       * [GSAP - TweenLite](https://greensock.com/tweenlite), [GSAP - TweenMax](https://greensock.com/tweenmax)
   * Keyframe + Timeline
     * Style

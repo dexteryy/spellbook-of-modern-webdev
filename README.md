@@ -474,6 +474,7 @@ A Subset for __Architecture and Infrastructure__
   * Typography
     * [Typography.js](https://www.npmjs.com/package/typography)
     * [Gutenberg](http://matejlatin.github.io/Gutenberg/)
+    * [The Equilateral Triangle of a Perfect Paragraph](https://betterwebtype.com/triangle)
     * [The Elements of Typographic Style Applied to the Web](http://webtypography.net/toc/)
     * [Why is Vertical Rhythm an Important Typography Practice?](https://zellwk.com/blog/why-vertical-rhythms/)
       * [CSS with vertical rhythm](https://drewish.com/tools/vertical-rhythm/)

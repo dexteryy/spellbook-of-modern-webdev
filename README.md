@@ -21,13 +21,19 @@
 <br>
 <br>
 
-* This document originated from a bunch of __most commonly used links and learning resources__ I sent to every new web developer on our full-stack web development team.
-* For each problem domain and each technology, I try my best to pick only __one or a few__ links that are __most important, typical, common or popular__ and __not outdated__, base on the __clear trends__, __public data__ and __empirical observation__.
+* This document originated from a bunch of most commonly used links and learning resources I sent to every new web developer on our full-stack web development team.
+* What I'm doing in this document now is trying to provide the __complete view angle__ of __modern web (app or page) development ruled by JavaScript__, reflect __technological advance__ and help developers to __acquire APIs, libraries, tools, services, best practices and learning resource__ which are __not outdated__ and __most commonly used__.
+* I hope this document can __help one developer to have more power to do much more and much better__, just __like a spellbook does in fantasy worlds__.
+* The JS/web technology is like [an ocean of stuff you don’t know](https://medium.com/javascript-scene/why-im-thankful-for-js-fatigue-i-know-you-re-sick-of-those-words-but-this-is-different-296fae0c888f). Simply collecting more stuff or composing dozens of "awesome lists" into a single one will only exacerbate the [Javascript Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4). So this document must __stay lean__ and focus on __the most frequent problems__ and __the most commonly used stuff__.
+* So for each problem domain and each technology, I try my best to pick only __one or a few__ links.
+* Which link belongs to "not outdated and most commonly used stuff" is not only decided by __clear trends__, __empirical observation__, and __working experience__, also by __public data__ and __web scraping scripts__.
+* __The npm package statistics (like download count) are given more weight than Github repo statistics (like starring data)__ because npm statistics can better reflect the actual usage and popularity.
 * Prefer __fine-grained classifications and deep hierarchies__ over __featureless descriptions and distractive comments__.
 * Ideally, __each line is a unique category__. The __" / "__ symbol between the links means they are replaceable. The __", "__ symbol between the links means they are complementary.
 * I wish this document could be closer to a kind of __knowledge graph__ or __skill tree__ than a list or a collection.
 * It currently contains __2000+__<!-- \[[^\]]+\] --> links (projects, tools, plugins, services, articles, books, sites, etc.)
-* Feel free to submit the missing or better links in your opinion. Also, please provide the reason.
+* Feel free to submit the __missing__ or __better__ links in your opinion. Also, please provide the __reason__.
+* [Why not add a Europe (or other regions) section](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/4#issuecomment-308073026)? [Why not add your project](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/5)? [Why so many React-based projects? Why not Angular/Vue.js/XXX](http://www.npmtrends.com/rxjs-vs-mobx-vs-redux-vs-vue-vs-react-vs-@angular/core-vs-@cycle/dom-vs-backbone-vs-jquery-vs-vuex)?
 
 <br>
 <br>

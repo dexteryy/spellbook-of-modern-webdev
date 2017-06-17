@@ -47,7 +47,7 @@
 
 ---
 
-__Table of Contents__
+## Table of Contents
 
 - [Platforms and Languages](#platforms-and-languages)
   - [Open Web Platform](#open-web-platform)
@@ -266,6 +266,8 @@ A Subset for __Architecture and Infrastructure__
     Google's [Search Engine Optimization Starter Guide](http://www.google.com/webmasters/docs/search-engine-optimization-starter-guide.pdf)
   * [The A11Y Project](http://a11yproject.com/), [Using ARIA](https://w3c.github.io/using-aria/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### HTML5 Features
 
 * HTML / DOM
@@ -353,6 +355,8 @@ A Subset for __Architecture and Infrastructure__
     * [An Abridged Cartoon Introduction To WebAssembly](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/)
     * Workshop - [Codelabs - An Introduction to Web Assembly](https://codelabs.developers.google.com/codelabs/web-assembly-intro/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### CSS Features
 
 * Basics
@@ -414,6 +418,8 @@ A Subset for __Architecture and Infrastructure__
   * [Clipping and Masking in CSS](https://css-tricks.com/clipping-masking-css/)
   * [The State of CSS Reflections](https://css-tricks.com/state-css-reflections/)
   * [CSS Shapes 101](https://alistapart.com/article/css-shapes-101)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Next Generation CSS
 
@@ -503,6 +509,8 @@ A Subset for __Architecture and Infrastructure__
       * A List Apart's [pattern library](http://patterns.alistapart.com/)
       * <span>USA</span>.gov's [Web Design Standards](https://standards.usa.gov/)
       * MailChimp's [Email Design Guide](https://mailchimp.com/email-design-guide/)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Next Generation JS
 
@@ -602,6 +610,8 @@ A Subset for __Architecture and Infrastructure__
   * [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
   * [JavaScript Clean Coding Best Practices](https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Node.js
 
 * Intro
@@ -624,6 +634,8 @@ A Subset for __Architecture and Infrastructure__
   * [Joyent's Production Practices - Design](https://www.joyent.com/node-js/production/design/), [Error Handling](https://www.joyent.com/node-js/production/design/errors)
   * [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
   * [Node.js Best Practices](https://github.com/alanjames1987/Node.js-Best-Practices)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Platform Compatibility and Proposal Status
 
@@ -728,6 +740,8 @@ A Subset for __Architecture and Infrastructure__
   * [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
   * [Device Metrics](https://material.io/devices/) / [Screen Sizes](http://screensiz.es/monitor)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Cross-browser / Polyfill Libraries
 
 * Appearance
@@ -770,6 +784,8 @@ A Subset for __Architecture and Infrastructure__
   * `<video>` - [Video.js](http://videojs.com/)
   * `<audio>` - [Howler.js](https://howlerjs.com/)
   * Web Audio API - [Waud.js](http://www.waudjs.com/), [Tone.js](https://tonejs.github.io/)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### npm Ecosystem
 
@@ -836,6 +852,8 @@ A Subset for __Architecture and Infrastructure__
   * Isomorphic JS / Universal JS
     * [Isomorphic JavaScript: The Future of Web Apps](https://medium.com/airbnb-engineering/isomorphic-javascript-the-future-of-web-apps-10882b7a2ebc)
     * [Universal JavaScript](https://medium.com/@mjackson/universal-javascript-4761051b7ae9)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Universal Utility Libraries
 
@@ -932,6 +950,8 @@ A Subset for __Architecture and Infrastructure__
   * [compromise](https://github.com/nlp-compromise/compromise) / [talisman](http://yomguithereal.github.io/talisman/)
 * ML
   * [MLJS](https://www.npmjs.com/package/ml), [Synaptic](https://www.npmjs.com/package/synaptic)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ## Universal Web Apps / Web Pages
 
@@ -1043,6 +1063,8 @@ A Subset for __Architecture and Infrastructure__
     * [What Developers Need to Know about MVI (Model-View-Intent)](https://thenewstack.io/developers-need-know-mvi-model-view-intent/)
   * [SAM (State-Action-Model)](http://sam.js.org/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### UI Toolkits
 
 * CSS
@@ -1063,6 +1085,8 @@ A Subset for __Architecture and Infrastructure__
   * [React WeUI](https://weui.github.io/react-weui/docs/)
   * [React Desktop](http://reactdesktop.js.org/)
   * [React Native Web](https://www.npmjs.com/package/react-native-web)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Standalone UI Components
 
@@ -1130,6 +1154,8 @@ A Subset for __Architecture and Infrastructure__
   * [Redux Auth](https://github.com/lynndylanhurley/redux-auth)
   * [SurveyJS](http://surveyjs.org/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ## Client Side
 
 ### UX Libraries
@@ -1174,6 +1200,8 @@ A Subset for __Architecture and Infrastructure__
 * Accessiblity
   * [React HotKeys](https://www.npmjs.com/package/react-hotkeys)
   * [React A11y](https://www.npmjs.com/package/react-a11y)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Graphic Libraries
 
@@ -1256,6 +1284,8 @@ A Subset for __Architecture and Infrastructure__
   * [Phaser](https://www.npmjs.com/package/phaser)
   * [voxel.js](http://voxeljs.com/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Hybrid Libraries
 
 * Electron
@@ -1317,6 +1347,8 @@ A Subset for __Architecture and Infrastructure__
     * [Realm](https://www.npmjs.com/package/realm)
     * [Simple Store](https://www.npmjs.com/package/react-native-simple-store)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ## Server Side
 
 ### Network
@@ -1361,6 +1393,8 @@ A Subset for __Architecture and Infrastructure__
   * [Writing WebSocket servers](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
 * UDP
   * [QUIC](https://www.chromium.org/quic)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Server-side Best Practices
 
@@ -1455,6 +1489,8 @@ A Subset for __Architecture and Infrastructure__
   * [The Practical DevOps Playbook](https://www.shippable.com/devops-playbook.html)
   * Tools - see _[Tooling > Workflow](#workflow) > Deployment > DevOps_
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Microservices / API Services (Node.js)
 
 * Frameworks
@@ -1506,6 +1542,8 @@ A Subset for __Architecture and Infrastructure__
   * [Nodal](https://github.com/keithwhor/nodal)
   * [Fuge](http://fuge.io/)
   * [Botpress](https://github.com/botpress/botpress)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Server-side Libraries (Node.js)
 
@@ -1573,6 +1611,8 @@ A Subset for __Architecture and Infrastructure__
 * NLP
   * [natural](https://github.com/NaturalNode/natural) / [retext](https://github.com/wooorm/retext) / [NodeJieba](https://github.com/yanyiwu/nodejieba)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Cloud Services (Global)
 
 * Compute
@@ -1638,6 +1678,8 @@ A Subset for __Architecture and Infrastructure__
     * [Amazon Rekognition](https://aws.amazon.com/rekognition/) / [Google Cloud Vision API](https://cloud.google.com/vision/)
     * [Google Cloud Video Intelligence API](https://cloud.google.com/video-intelligence/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Cloud Services (China)
 
 > The evil twins inside [the Great Firewall of China](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/4)
@@ -1701,6 +1743,8 @@ A Subset for __Architecture and Infrastructure__
     * [阿里云-机器学习PAI-网络分析](https://help.aliyun.com/document_detail/42750.html)
   * Persona
     * [阿里云-画像分析](https://data.aliyun.com/product/porana) / [腾讯云-智能推荐 IR](https://www.qcloud.com/product/ir)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ## Tooling
 
@@ -1769,6 +1813,8 @@ A Subset for __Architecture and Infrastructure__
     * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/)
     * [Varvy SEO tool](https://varvy.com/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Documentation
 
 * JS
@@ -1792,6 +1838,8 @@ A Subset for __Architecture and Infrastructure__
 * Writing
   * Static Web Generator - [GitBook](https://www.npmjs.com/package/gitbook) / [ReadMe](https://readme.io/)
   * Client-side Rendering - [Docute](https://docute.js.org) / [Docsify](https://docsify.js.org)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Toolchain
 
@@ -1940,6 +1988,8 @@ A Subset for __Architecture and Infrastructure__
       * [gulp-replace](https://www.npmjs.com/package/gulp-replace/) / [gulp-inject](https://www.npmjs.com/package/gulp-inject) / [gulp-useref](https://www.npmjs.com/package/gulp-useref), [gulp-inline-source](https://www.npmjs.com/package/gulp-inline-source/)
       * [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Workflow
 
 * Development
@@ -2047,6 +2097,8 @@ A Subset for __Architecture and Infrastructure__
       * [腾讯云-云拨测 CAT](https://www.qcloud.com/product/cat) / [百度云观测](http://ce.baidu.com/)
       * [alinode](https://alinode.aliyun.com/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Command-line Environment (Mac)
 
 * Intro
@@ -2079,6 +2131,8 @@ A Subset for __Architecture and Infrastructure__
   * Finding - [ag (The Silver Searcher)](https://github.com/ggreer/the_silver_searcher), [peco](https://github.com/peco/peco), [jq](https://stedolan.github.io/jq)
   * Processes - [glances](https://github.com/nicolargo/glances) / [vtop](https://www.npmjs.com/package/vtop), [fkill](https://www.npmjs.com/package/fkill-cli)
   * Help - [tldr](https://github.com/tldr-pages/tldr) / [howdoi](https://github.com/gleitz/howdoi)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### Command-line Libraries (Node.js)
 
@@ -2124,6 +2178,8 @@ A Subset for __Architecture and Infrastructure__
   * SSH - [ssh2](https://www.npmjs.com/package/ssh2)
 * Parser
   * JS - [Acorn](https://www.npmjs.com/package/acorn) / [Babylon](https://www.npmjs.com/package/babylon) / [Espree](https://www.npmjs.com/package/espree) / [Esprima](https://www.npmjs.com/package/esprima)
+
+\>\> Return to [Table of Contents](#table-of-contents)
 
 ### IDE / Editors
 
@@ -2184,6 +2240,8 @@ A Subset for __Architecture and Infrastructure__
   * [Mononoki](http://madmalik.github.io/mononoki/)
   * [Profont](http://tobiasjung.name/profont/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Useful Apps
 
 * Playground
@@ -2225,6 +2283,8 @@ A Subset for __Architecture and Infrastructure__
 * Automation
   * [RobotJS](https://robotjs.io/)
 
+\>\> Return to [Table of Contents](#table-of-contents)
+
 ### Collaboration
 
 * Version Control
@@ -2258,3 +2318,5 @@ A Subset for __Architecture and Infrastructure__
   * [After Effects](http://www.adobe.com/products/aftereffects.html) + [Lottie](https://airbnb.design/lottie/) / [bodymovin](https://github.com/bodymovin/bodymovin)
   * [Figma](https://www.figma.com/)
   * [InVision](https://www.invisionapp.com/)
+
+\>\> Return to [Table of Contents](#table-of-contents)

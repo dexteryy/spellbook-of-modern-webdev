@@ -731,6 +731,7 @@ A Subset for __Architecture and Infrastructure__
     * [Top Mistakes by Developers new to Cordova/Phonegap](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
     * Curated Plugins - [Awesome Cordova Plugins](https://github.com/rdn87/awesome-cordova-plugins#list-plugins), [Telerik Verified Plugins](http://plugins.telerik.com/cordova)
     * Finding Plugins - [plugreg](http://www.plugreg.com/) / [Plugin Search](https://cordova.apache.org/plugins/)
+  * [Crosswalk](https://crosswalk-project.org/)
   * [React Native](http://facebook.github.io/react-native/) / [NativeScript](https://www.nativescript.org/) / [Weex](https://weex-project.io/)
     * [React Native Styling Cheat Sheet](https://github.com/vhpoet/react-native-styling-cheat-sheet)
     * [Bridging in React Native - An in-depth look into React Native's core](https://tadeuzagallo.com/blog/react-native-bridge/)

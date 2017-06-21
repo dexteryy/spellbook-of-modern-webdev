@@ -437,6 +437,7 @@ A Subset for __Architecture and Infrastructure__
     * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
   * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
 * [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
+  * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
   * [Styled-Components](https://github.com/styled-components/styled-components)
     * [Styled Components: Enforcing Best Practices In Component-Based Systems](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/)
     * [Writing your styles in JS ≠ writing inline styles](http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/)

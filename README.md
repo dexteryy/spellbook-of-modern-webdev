@@ -1845,7 +1845,7 @@ A Subset for __Architecture and Infrastructure__
 ### Toolchain
 
 * Compiler / Transpiler / Preprocessor
-  * [Babel](babeljs.io)
+  * [Babel](https://babeljs.io)
     * [Setting up ES6](https://leanpub.com/setting-up-es6/read)
     * [Babel User Handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/user-handbook.md), [Babel Plugin Handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md)
     * Presets
@@ -1946,7 +1946,7 @@ A Subset for __Architecture and Infrastructure__
       * [fp](https://www.npmjs.com/package/eslint-plugin-fp), [lodash](https://www.npmjs.com/package/eslint-plugin-lodash), [lodash-fp](https://www.npmjs.com/package/eslint-plugin-lodash-fp), [immutable](https://www.npmjs.com/package/eslint-plugin-immutable)
       * [promise](https://www.npmjs.com/package/eslint-plugin-promise), [optimize-regex](https://www.npmjs.com/package/eslint-plugin-optimize-regex)
       * [filenames](https://www.npmjs.com/package/eslint-plugin-filenames)
-  * [Flow](flowtype.org)
+  * [Flow](https://flow.org)
     * [flow-typed](https://github.com/flowtype/flow-typed)
     * [Flow Runtime](https://www.npmjs.com/package/babel-plugin-flow-runtime)
   * [StyleLint](http://stylelint.io/)
@@ -2306,7 +2306,7 @@ A Subset for __Architecture and Infrastructure__
   * [What is ChatOps? And How do I Get Started?](https://www.pagerduty.com/blog/what-is-chatops/), \
     [What is ChatOps? A guide to its evolution, adoption, and significance](https://www.atlassian.com/blog/software-teams/what-is-chatops-adoption-guide)
   * [Hubot](https://hubot.github.com/)
-    * Adapters - [Slack](https://github.com/slackapi/hubot-slack) / [HipChat](https://www.npmjs.com/package/hubot-hipchat) / [Discord](http://npmjs.com/package/hubot-discord) / [IRC](https://www.npmjs.com/package/hubot-irc) / [Wechat](https://www.npmjs.com/package/hubot-weixin) / [QQ](npmjs.com/package/hubot-qq)
+    * Adapters - [Slack](https://github.com/slackapi/hubot-slack) / [HipChat](https://www.npmjs.com/package/hubot-hipchat) / [Discord](http://npmjs.com/package/hubot-discord) / [IRC](https://www.npmjs.com/package/hubot-irc) / [Wechat](https://www.npmjs.com/package/hubot-weixin) / [QQ](https://www.npmjs.com/package/hubot-qq)
 * Kanban
   * What is Kanban? - [A](https://leankit.com/learn/kanban/what-is-kanban/), [B](http://kanbanblog.com/explained/)
   * [Getting Started With Trello](https://trello.com/guide)

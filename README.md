@@ -1212,9 +1212,12 @@ A Subset for __Architecture and Infrastructure__
       * [Animate Components](https://www.npmjs.com/package/animate-components) / [React Animations](https://www.npmjs.com/package/react-animations)
     * [Hover.css](http://ianlunn.github.io/Hover/)
     * [Transformicons](http://www.transformicons.com/) / [Hamburgers](https://www.npmjs.com/package/hamburgers)
-  * Loading
-    * [Loaders.css](https://connoratherton.com/loaders) / [SpinKit](https://github.com/tobiasahlin/SpinKit) / [Spin.js](http://spin.js.org/)
-    * [React Spinkit](https://www.npmjs.com/package/react-spinkit) / [React Loaders](https://www.npmjs.com/package/react-loaders) / [Halogen](http://madscript.com/halogen/) / [React Spinjs](https://www.npmjs.com/package/react-spinjs)
+    * Loading
+      * [Loaders.css](https://connoratherton.com/loaders) / [SpinKit](https://github.com/tobiasahlin/SpinKit) / [Spin.js](http://spin.js.org/)
+      * [React Spinkit](https://www.npmjs.com/package/react-spinkit) / [React Loaders](https://www.npmjs.com/package/react-loaders) / [Halogen](http://madscript.com/halogen/) / [React Spinjs](https://www.npmjs.com/package/react-spinjs)
+  * Easing
+    * [d3-ease](https://www.npmjs.com/package/d3-ease) / [tween-functions](https://www.npmjs.com/package/tween-functions)
+    * [bezier-easing](https://www.npmjs.com/package/bezier-easing)
   * Scrolling
     * [ScrollReveal.js](https://www.npmjs.com/package/scrollreveal) / [ScrollMagic](http://scrollmagic.io/)
   * Parallax

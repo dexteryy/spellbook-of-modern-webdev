@@ -437,7 +437,8 @@ A Subset for __Architecture and Infrastructure__
     * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
   * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
 * [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
-  * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+  * Intro
+    * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
   * [Styled-Components](https://github.com/styled-components/styled-components)
     * [Styled Components: Enforcing Best Practices In Component-Based Systems](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/)
     * [Writing your styles in JS ≠ writing inline styles](http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/)
@@ -962,6 +963,7 @@ A Subset for __Architecture and Infrastructure__
   * [React](https://facebook.github.io/react/)
     * Learning
       * Pete Hunt's [react-howto](https://github.com/petehunt/react-howto)
+      * [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
       * [SurviveJS React](https://survivejs.com/react/introduction/)
       * [React Cheat Sheet](https://reactcheatsheet.com/)
       * Best Practices
@@ -1132,6 +1134,7 @@ A Subset for __Architecture and Infrastructure__
 * Content
   * Carousel - [React Slick](https://www.npmjs.com/package/react-slick) / [Nuka Carousel](https://www.npmjs.com/package/nuka-carousel)
   * [React Paginate](https://www.npmjs.com/package/react-paginate)
+  * [React Rating](https://www.npmjs.com/package/react-rating)
   * List / Table - [React Virtualized](https://www.npmjs.com/package/react-virtualized) / [React Table](https://www.npmjs.com/package/react-table) / [React List](https://www.npmjs.com/package/react-list)
   * Spreadsheet - [React Data Grid](http://adazzle.github.io/react-data-grid/) / [React Handsontable](https://www.npmjs.com/package/react-handsontable) / [React Datasheet](https://nadbm.github.io/react-datasheet/)
   * TreeView - [React TreeView](https://www.npmjs.com/package/react-treeview) / [React Treebeard](https://www.npmjs.com/package/react-treebeard)

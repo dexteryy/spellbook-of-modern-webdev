@@ -1032,8 +1032,6 @@ A Subset for __Architecture and Infrastructure__
 * i18n
   * [React Intl](https://github.com/yahoo/react-intl) / [React i18next](https://react.i18next.com)
   * [React Intl Redux](https://www.npmjs.com/package/react-intl-redux)
-* Server-side Rendering
-  * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
 * Monitoring
   * [React GA](https://www.npmjs.com/package/react-ga)
   * [Redux Raven Middleware](https://www.npmjs.com/package/redux-raven-middleware)
@@ -1041,12 +1039,17 @@ A Subset for __Architecture and Infrastructure__
   * Services - see _[Tooling > Workflow](#workflow) > Monitoring_
 * Debugging
   * [why-did-you-update](https://www.npmjs.com/package/why-did-you-update)
+* Server-side Rendering
+  * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
+* Static Web
+  * [Defining Static Web Apps](https://staticapps.org/articles/defining-static-web-apps/)
+  * [JAMstack](https://jamstack.org/)
+  * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
 * Scaffold / Boilerplate / Generator
-  * [create-react-app](https://github.com/facebookincubator/create-react-app)
+  * [create-react-app](https://github.com/facebookincubator/create-react-app) / [angular-cli](https://cli.angular.io/) / [vue-cli](https://www.npmjs.com/package/vue-cli)
   * [react-starter-kit](https://github.com/kriasoft/react-starter-kit) / [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)
-  * [angular-cli](https://cli.angular.io/)
-  * [vue-cli](https://www.npmjs.com/package/vue-cli)
   * [JavaScript Stack from Scratch](https://github.com/verekia/js-stack-from-scratch)
+  * Static Site Generator - [Gatsby](https://www.gatsbyjs.org/) / [Metalsmith](http://www.metalsmith.io/) / [Hexo](https://hexo.io/) / [Assemble](http://assemble.io/)
 * GUI Architectures
   * Comparison
     * [Scaling Isomorphic JavaScript Code](https://blog.nodejitsu.com/scaling-isomorphic-javascript-code/)
@@ -1442,7 +1445,6 @@ A Subset for __Architecture and Infrastructure__
     * Azure's Cloud Fundamentals - [Architecture styles](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/), [Pillars of software quality](https://docs.microsoft.com/en-us/azure/architecture/guide/pillars), [Design principles](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/index)
   * Static
     * [Static Content Hosting](https://docs.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting), [Valet Key](https://docs.microsoft.com/en-us/azure/architecture/patterns/valet-key), [Content Delivery Network](https://docs.microsoft.com/en-us/azure/architecture/best-practices/cdn)
-    * [Defining Static Web Apps](https://staticapps.org/articles/defining-static-web-apps/)
   * Queue / Jobs
     * [Queue-Based Load Leveling](https://docs.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling), [Competing Consumers](https://docs.microsoft.com/en-us/azure/architecture/patterns/competing-consumers), [Priority Queue](https://docs.microsoft.com/en-us/azure/architecture/patterns/priority-queue)
     * [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)

@@ -934,7 +934,7 @@ A Subset for __Architecture and Infrastructure__
 * Network
   * HTTP / XHR
     * Low-level - [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch)
-    * High-level -[Axios](https://www.npmjs.com/package/axios) / [Hifetch](https://github.com/dexteryy/hifetch) (author's own project)
+    * High-level -[Axios](https://www.npmjs.com/package/axios)
     * GraphQL - [lokka](https://github.com/kadirahq/lokka)
   * TCP
     * [MQTT](https://www.npmjs.com/package/mqtt)
@@ -1545,7 +1545,6 @@ A Subset for __Architecture and Infrastructure__
     * [JSON Schema Based Editor](https://github.com/jdorn/json-editor)
   * See _[Tooling > Documentation](#documentation)_
 * Scaffold / Boilerplate / Generator
-  * [nodecube](https://github.com/dexteryy/nodecube) (author's own project)
   * [Nodal](https://github.com/keithwhor/nodal)
   * [Fuge](http://fuge.io/)
   * [Botpress](https://github.com/botpress/botpress)

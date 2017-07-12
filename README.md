@@ -377,9 +377,9 @@ A Subset for __Architecture and Infrastructure__
     * [Truly Fluid Typography With vh And vw Units](https://www.smashingmagazine.com/2016/05/fluid-typography/)
 * [Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
   * Flexbox, CSS Grid Layout
+    * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     * [Using Flexbox today](https://chriswrightdesign.com/experiments/using-flexbox-today/)
     * [CSS Grid, Flexbox And Box Alignment: Our New System For Web Layout](https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/)
-    * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     * [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
     * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/), [Flexbox Patterns](http://www.flexboxpatterns.com/home)
       * [Centering Elements with Flexbox](https://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/)

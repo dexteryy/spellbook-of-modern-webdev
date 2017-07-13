@@ -685,7 +685,7 @@ A Subset for __Architecture and Infrastructure__
       * [W3C vs. WHATWG HTML5 Specs – The Differences Documented](http://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/)
   * [ECMA TC39](http://ecma-international.org/memento/TC39.htm) (Ecma International Technical Committee 39)
     * [Status, process, and documents for ECMA262](https://github.com/tc39/ecma262)
-      * [ECMAScript Proposals](https://github.com/tc39/proposals)
+      * [ECMAScript Proposals](https://github.com/tc39/proposals) / [TC39 Proposals](https://prop-tc39.now.sh/)
     * Inside
       * [The TC39 Process](http://tc39.github.io/process-document/) / [The TC39 process for ECMAScript features](http://2ality.com/2015/11/tc39-process.html)
   * [Node.js CTC](https://github.com/nodejs/CTC) (Node.js Core Technical Committee)

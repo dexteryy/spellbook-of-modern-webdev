@@ -35,6 +35,11 @@
 * Feel free to submit the __missing__ or __better__ links in your opinion. Also, please provide the __reason__.
 * [Why not add a Europe (or other regions) section](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/4#issuecomment-308073026)? [Why not add your project](https://github.com/dexteryy/spellbook-of-modern-webdev/pull/5)? [Why so many React-based projects? Why not Angular/Vue.js/XXX](http://www.npmtrends.com/rxjs-vs-mobx-vs-redux-vs-vue-vs-react-vs-@angular/core-vs-@cycle/dom-vs-backbone-vs-jquery-vs-vuex)?
 
+#### Understanding Modern Web Development
+
+* In English: coming soon...
+* In Chinese: [slides](https://speakerdeck.com/dexteryy/understanding-modern-web-development-at-jsconf-china-2017-zhong-wen) @ [JSConf CN 2017](http://2017.jsconf.cn/#schedule)
+
 <br>
 <br>
 
@@ -53,7 +58,7 @@
   - [Open Web Platform](#open-web-platform)
     - Learning, Reference, Visual Tools
     - Performance, Security, Semantics / SEO / Accessibility
-  - [HTML5 Features](#html5-features)
+  - [HTML5 / Web APIs](#html5--web-apis)
     - HTML/DOM, Appearance, Interaction, Access, Network, Media, Graphics, Computing...
   - [CSS Features](#css-features)
     - RWD, Layout, Typography, Text, Animation, Effects...
@@ -155,7 +160,7 @@
 A Subset as a __Learning Path__
 
 1. [Open Web Platform](#open-web-platform)
-2. [HTML5 Features](#html5-features)
+2. [HTML5 / Web APIs](#html5--web-apis)
 3. [CSS Features](#css-features)
 4. [Next Generation CSS](#next-generation-css)
 5. [Next Generation JS](#next-generation-js)
@@ -227,7 +232,7 @@ A Subset for __Architecture and Infrastructure__
     * [WebKit JS](https://developer.apple.com/reference/webkitjs/), [WebKit DOM Programming Topics](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/SafariJSProgTopics)
     * [Safari Web Content Guide](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/), [Safari HTML Reference](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html), [Safari CSS Reference](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariCSSRef/), [Safari CSS Visual Effects Guide](https://developer.apple.com/library/content/documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/)
   * [Microsoft Edge Developer Guide](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide)
-  * CSS-Tricks's [CSS Almanac](https://css-tricks.com/almanac/)
+  * CSS-Tricks's [CSS Almanac](https://css-tricks.com/almanac/), [Codrops' CSS Reference](https://tympanus.net/codrops/css_reference/)
   * [HTML: The Living Standard (Web Developer Edition)](https://developers.whatwg.org/)
     * [The Web platform: Browser technologies](https://platform.html5.org/)
   * [W3Fools](http://www.w3fools.com/)
@@ -252,6 +257,7 @@ A Subset for __Architecture and Infrastructure__
     * [Evolution of Script Loading](https://www.stevesouders.com/blog/2010/12/06/evolution-of-script-loading/), [Browser script loading roundup](https://www.stevesouders.com/blog/2010/02/07/browser-script-loading-roundup/)
   * Offline
     * [Offline UX Considerations](https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux)
+    * [The offline cookbook](https://jakearchibald.com/2014/offline-cookbook/)
   * Measure
     * [Measure Performance with the RAIL Model](https://developers.google.com/web/fundamentals/performance/rail)
     * [Measuring Page Load Speed with Navigation Timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/)
@@ -268,10 +274,12 @@ A Subset for __Architecture and Infrastructure__
 
 \>\> Return to [Table of Contents](#table-of-contents)
 
-### HTML5 Features
+### HTML5 / Web APIs
 
 * HTML / DOM
-  * [You Might Not Need jQuery](http://youmightnotneedjquery.com/), [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+  * [You Might Not Need jQuery](http://youmightnotneedjquery.com/), \
+    [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery), \
+    [(Now More Than Ever) You Might Not Need jQuery](https://css-tricks.com/now-ever-might-not-need-jquery/)
   * [HEAD](https://github.com/joshbuchea/HEAD/)
   * [favicon](https://github.com/audreyr/favicon-cheat-sheet)
   * [Form pseudo-element](https://gist.github.com/webtobesocial/aefd6e25064c08e0cc9a)
@@ -379,8 +387,8 @@ A Subset for __Architecture and Infrastructure__
   * Flexbox, CSS Grid Layout
     * [Using Flexbox today](https://chriswrightdesign.com/experiments/using-flexbox-today/)
     * [CSS Grid, Flexbox And Box Alignment: Our New System For Web Layout](https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/)
-    * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-    * [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+    * [A Complete Guide to Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) / [Flexbox (Codrops)](https://tympanus.net/codrops/css_reference/flexbox/)
+    * [A Complete Guide to Grid (CSS-Tricks)](https://css-tricks.com/snippets/css/complete-guide-grid/) / [A Complete Guide to CSS Grid (Codrops)](https://tympanus.net/codrops/css_reference/grid/)
     * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/), [Flexbox Patterns](http://www.flexboxpatterns.com/home)
       * [Centering Elements with Flexbox](https://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/)
       * [Quantity Queries with Flexbox](https://www.smashingmagazine.com/2015/07/quantity-ordering-with-css/)
@@ -921,6 +929,7 @@ A Subset for __Architecture and Infrastructure__
     * Links Recognition - [linkify-it](https://www.npmjs.com/package/linkify-it)
     * Language Detection - [franc](https://www.npmjs.com/package/franc)
     * Text Differencing - [diff](https://www.npmjs.com/package/diff)
+    * JSON Differencing - [deep-diff](https://www.npmjs.com/package/deep-diff)
     * Search - [Fuse.js](http://fusejs.io/) / [fuzzysearch](https://www.npmjs.com/package/fuzzysearch) / [Lunr.js](https://lunrjs.com) / [js-worker-search](https://www.npmjs.com/package/js-worker-search), [regexgen](https://www.npmjs.com/package/regexgen) / [escape-string-regexp](https://www.npmjs.com/package/escape-string-regexp)
     * DSL Paser - [PEG.js](https://pegjs.org/) / [nearley](http://nearley.js.org/)
   * Buffer / Blob
@@ -964,7 +973,8 @@ A Subset for __Architecture and Infrastructure__
     * Learning
       * Pete Hunt's [react-howto](https://github.com/petehunt/react-howto)
       * [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
-      * [SurviveJS React](https://survivejs.com/react/introduction/)
+      * [Under the hood: ReactJS](https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/)
+      * [SurviveJS React](https://survivejs.com/react/introduction/) / [React Express](http://www.react.express/)
       * [React Cheat Sheet](https://reactcheatsheet.com/)
       * Best Practices
         * [React Bits](https://github.com/vasanthk/react-bits), [React in patterns](https://github.com/krasimir/react-in-patterns)
@@ -1019,7 +1029,7 @@ A Subset for __Architecture and Infrastructure__
     * Learning
       * [Learn GraphQL](https://learngraphql.com)
       * [Queries and Mutations](http://graphql.org/learn/queries/)
-      * Playground - [GraphQLHub](https://www.graphqlhub.com/)
+      * Playground - [GraphQLHub](https://www.graphqlhub.com/), [Explore GraphQL](https://www.graphql.com/tutorials/)
     * [React Apollo](http://dev.apollodata.com/react/), [Learn Apollo](https://www.learnapollo.com/)
 * Offline First
   * Learning
@@ -1429,7 +1439,7 @@ A Subset for __Architecture and Infrastructure__
   * API Gateway
     * [Pattern: API Gateway / Backend for Front-End](http://microservices.io/patterns/apigateway.html)
     * [Why an API Gateway?](https://www.nginx.com/blog/microservices-api-gateways-part-1-why-an-api-gateway/)
-    * [Moving from REST to GraphQL](https://medium.com/@frikille/moving-from-rest-to-graphql-e3650b6f5247) / [From REST to GraphQL](https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b)
+    * [Moving from REST to GraphQL](https://medium.com/@frikille/moving-from-rest-to-graphql-e3650b6f5247) / [From REST to GraphQL](https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b) / [GraphQL vs. REST](https://dev-blog.apollodata.com/graphql-vs-rest-5d425123e34b)
     * [Serverless and GraphQL: A Perfect Match for the New Cloud Paradigm](https://thenewstack.io/serverless-graphql-perfect-match-new-cloud-paradigm/)
   * Serverless
     * [Pattern: Serverless deployment](http://microservices.io/patterns/deployment/serverless-deployment.html)
@@ -1476,8 +1486,9 @@ A Subset for __Architecture and Infrastructure__
     * [The OAuth Bible](http://oauthbible.com/)
   * [Tokens used by Auth0](https://auth0.com/docs/tokens)
     * [Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)
-  * [How To Safely Store A Password](https://codahale.com/how-to-safely-store-a-password/)
-  * [You Wouldn't Base64 a Password - Cryptography Decoded](https://paragonie.com/blog/2015/08/you-wouldnt-base64-a-password-cryptography-decoded)
+  * [How To Safely Store A Password](https://codahale.com/how-to-safely-store-a-password/), \
+    [You Wouldn't Base64 a Password - Cryptography Decoded](https://paragonie.com/blog/2015/08/you-wouldnt-base64-a-password-cryptography-decoded), \
+    [How to securely hash passwords?](https://security.stackexchange.com/a/31846)
   * [Weak Signature Algorithm](https://developer.mozilla.org/en-US/docs/Web/Security/Weak_Signature_Algorithm)
 * Security
   * [Security Guide for Developers](https://github.com/FallibleInc/security-guide-for-developers)
@@ -1521,12 +1532,12 @@ A Subset for __Architecture and Infrastructure__
           * [express-jwt](https://www.npmjs.com/package/express-jwt) / [passport.js](http://passportjs.org/)
         * Proxy
           * [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) / [rocky](https://www.npmjs.com/package/rocky)
-          * [graphql-server-express](http://dev.apollodata.com/tools/graphql-server/setup.html#graphqlOptions) / [express-graphql](https://www.npmjs.com/package/express-graphql)
+          * [apollo-server](https://github.com/apollographql/apollo-server) / [express-graphql](https://www.npmjs.com/package/express-graphql)
     * Rich Framework
       * Configuration - [Hapi](https://hapijs.com/)
       * Realtime - [Feathers](https://feathersjs.com/)
   * Microservices
-    * [Micro](https://github.com/zeit/micro) / [Seneca](http://senecajs.org/) / [StdLib](https://stdlib.com/)
+    * [Micro](https://www.npmjs.com/package/micro) / [Seneca](http://senecajs.org/) / [StdLib](https://stdlib.com/)
   * Serverless
     * [Serverless Framework](https://github.com/serverless/serverless)
     * [IronFunctions](https://github.com/iron-io/functions)
@@ -1536,6 +1547,7 @@ A Subset for __Architecture and Infrastructure__
   * [Schemas and Types](http://graphql.org/learn/schema/)
     * [GraphQL Schema Language Cheat Sheet](https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6)
   * [graphql-tools](http://dev.apollodata.com/tools/graphql-tools/index.html)
+    * [graphql-tools: A simpler way to create GraphQL APIs](https://dev-blog.apollodata.com/graphql-tools-a-simpler-way-to-create-graphql-apis-eadf018f3766)
   * [graphql-anywhere](https://www.npmjs.com/package/graphql-anywhere)
 * DocGen + CodeGen
   * [API Blueprint](https://apiblueprint.org/) / [Swagger](http://swagger.io/) / [RAML](http://raml.org/)
@@ -2025,6 +2037,7 @@ A Subset for __Architecture and Infrastructure__
       * [WebGL Insight](https://github.com/3Dparallax/insight/), [Three.js Editor Extension](https://chrome.google.com/webstore/detail/threejs-editor-extension/fbgbekpggeldiacgjkacbkkcbjhmakea)
     * [Reactotron](https://github.com/infinitered/reactotron)
     * Electron - [Devtron](https://github.com/electron/devtron)
+    * [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
   * HTTP Inspector
     * [Paw](https://paw.cloud/) / [Postman](https://www.getpostman.com/) / [HTTPie](https://github.com/jakubroztocil/httpie)
   * Debugging Proxy
@@ -2253,7 +2266,7 @@ A Subset for __Architecture and Infrastructure__
 ### Useful Apps
 
 * Playground
-  * [CodePen](http://codepen.io/) / [WebpackBin](https://www.webpackbin.com)
+  * [CodePen](http://codepen.io/) / [WebpackBin](https://www.webpackbin.com) / [CodeSandbox](https://codesandbox.io/)
     * CDN for npm - [unpkg](https://unpkg.com/)
   * [RunKit](https://runkit.com)
   * [RequestBin](http://requestb.in/)

@@ -385,13 +385,13 @@ A Subset for __Architecture and Infrastructure__
     * [Truly Fluid Typography With vh And vw Units](https://www.smashingmagazine.com/2016/05/fluid-typography/)
 * [Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
   * Flexbox, CSS Grid Layout
-    * [Using Flexbox today](https://chriswrightdesign.com/experiments/using-flexbox-today/)
     * [CSS Grid, Flexbox And Box Alignment: Our New System For Web Layout](https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/)
     * [A Complete Guide to Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) / [Flexbox (Codrops)](https://tympanus.net/codrops/css_reference/flexbox/)
+      * [Using Flexbox today](https://chriswrightdesign.com/experiments/using-flexbox-today/)
+      * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/), [Flexbox Patterns](http://www.flexboxpatterns.com/home)
+        * [Centering Elements with Flexbox](https://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/)
+        * [Quantity Queries with Flexbox](https://www.smashingmagazine.com/2015/07/quantity-ordering-with-css/)
     * [A Complete Guide to Grid (CSS-Tricks)](https://css-tricks.com/snippets/css/complete-guide-grid/) / [A Complete Guide to CSS Grid (Codrops)](https://tympanus.net/codrops/css_reference/grid/)
-    * [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/), [Flexbox Patterns](http://www.flexboxpatterns.com/home)
-      * [Centering Elements with Flexbox](https://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/)
-      * [Quantity Queries with Flexbox](https://www.smashingmagazine.com/2015/07/quantity-ordering-with-css/)
   * Traditional
     * [Learn CSS Layout](http://learnlayout.com/)
       * [Learn CSS Layout - the pedantic way](http://book.mixu.net/css/)

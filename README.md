@@ -1679,6 +1679,7 @@ A Subset for __Architecture and Infrastructure__
     * [OAuth.io](https://oauth.io/)
     * CAPTCHA
       * [reCAPTCHA](https://www.google.com/recaptcha/)
+      * [svg-captcha](https://github.com/lemonce/svg-captcha)
   * Search - [Algolia](https://www.algolia.com/)
   * Email - [SendGrid](https://sendgrid.com/) / [Mailgun](https://www.mailgun.com/) / [Mandrill](http://www.mandrill.com/) / [Amazon SES](https://aws.amazon.com/ses/)
   * SMS - [Nexmo](https://www.nexmo.com/) / [Twilio](https://www.twilio.com/) / [Amazon SNS](https://aws.amazon.com/sns/)

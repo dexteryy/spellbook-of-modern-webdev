@@ -1596,6 +1596,7 @@ A Subset for __Architecture and Infrastructure__
   * [passwordless](https://passwordless.net/)
   * [oauth](https://www.npmjs.com/package/oauth)
   * OAuth Providers - [hello.js](http://adodson.com/hello.js/) / [grant](https://www.npmjs.com/package/grant)
+  * [svg-captcha](https://github.com/lemonce/svg-captcha)
 * Storage
   * NOSQL
     * Redis Client - [ioredis](https://github.com/luin/ioredis)

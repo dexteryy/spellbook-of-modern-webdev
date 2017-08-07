@@ -892,7 +892,7 @@ A Subset for __Architecture and Infrastructure__
   * Debugging
     * [debug](https://www.npmjs.com/package/debug) / [pino](https://www.npmjs.com/package/pino)
 * Hashing / Generating
-  * [uuid](https://www.npmjs.com/package/uuid)
+  * [uuid](https://www.npmjs.com/package/uuid) / [cuid](http://usecuid.org)
   * [shortid](https://www.npmjs.com/package/shortid) / [punycode](https://www.npmjs.com/package/punycode) / [string-hash](https://www.npmjs.com/package/string-hash)
   * [base64-js](https://www.npmjs.com/package/base64-js) / [sha.js](https://www.npmjs.com/package/sha.js) / [spark-md5](https://www.npmjs.com/package/spark-md5) / [crypto-js](https://www.npmjs.com/package/crypto-js) / [jsrsasign](https://www.npmjs.com/package/jsrsasign)
 * Parsing / Manipulating

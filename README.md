@@ -979,7 +979,7 @@ A Subset for __Architecture and Infrastructure__
       * Best Practices
         * [React Bits](https://github.com/vasanthk/react-bits), [React in patterns](https://github.com/krasimir/react-in-patterns)
         * [Functional UI and Components as Higher Order Functions](https://blog.risingstack.com/functional-ui-and-components-as-higher-order-functions/)
-      * Next Gen - [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
+      * Next Gen - [What is React Fiber?](https://gist.github.com/duivvv/2ba00d413b8ff7bc1fa5a2e51c61ba43), [React 16](https://github.com/facebook/react/issues/10294)
     * Component Utilities
       * [Recompose](https://github.com/acdlite/recompose)
       * [React Display Name](https://www.npmjs.com/package/react-display-name)

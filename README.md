@@ -1514,6 +1514,8 @@ A Subset for __Architecture and Infrastructure__
 ### Microservices / API Services (Node.js)
 
 * Frameworks
+  * Modular
+    * [http-framework](https://github.com/Raynos/http-framework)
   * RESTful API
     * Middleware Framework
       * [Express](http://expressjs.com/) / [Koa](http://koajs.com/)

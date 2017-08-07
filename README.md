@@ -1780,7 +1780,7 @@ A Subset for __Architecture and Infrastructure__
   * Integration Testing
     * [Enzyme](http://airbnb.io/enzyme/)
   * Functional Testing
-    * Headless Browser Automation - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [Nightmare](https://github.com/segmentio/nightmare) / [CasperJS](http://casperjs.org/)
+    * Headless Browser Automation - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [Nightmare](https://github.com/segmentio/nightmare) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
     * Cloud - [BrowserStack Automate](https://www.browserstack.com/automate) / [Sauce Labs](https://saucelabs.com/open-source#automated-testing-platform)
   * Visual Testing
     * [React Storybook](https://storybooks.js.org/) / [React Cosmos](https://github.com/react-cosmos/react-cosmos)

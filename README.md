@@ -842,6 +842,7 @@ A Subset for __Architecture and Infrastructure__
     * Changelog
       * [Conventional Commits](https://conventionalcommits.org/)
       * [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog)
+      * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
     * License
       * [Choose an open source license](https://choosealicense.com/)
   * SemVer
@@ -2337,8 +2338,8 @@ A Subset for __Architecture and Infrastructure__
   * [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax)
 * Design
   * [Sketch](https://www.sketchapp.com/learn/) / [Figma](https://www.figma.com/)
-  * [InVision](https://www.invisionapp.com/) / [Atomic](https://atomic.io/) / (Proto.io)[https://proto.io/]
-  * [Zeplin](https://zeplin.io/) / [Sympli](https://sympli.io/) / [Avocode](https://avocode.com/) 
+  * [InVision](https://www.invisionapp.com/) / [Atomic](https://atomic.io/) / [Proto.io](https://proto.io/)
+  * [Zeplin](https://zeplin.io/) / [Sympli](https://sympli.io/) / [Avocode](https://avocode.com/)
   * [After Effects](http://www.adobe.com/products/aftereffects.html) + [Lottie](https://airbnb.design/lottie/) / [bodymovin](https://github.com/bodymovin/bodymovin) / [Inspector Spacetime](https://google.github.io/inspectorspacetime/) + [Sketch2AE](https://google.github.io/sketch2ae/)
 
 \>\> Return to [Table of Contents](#table-of-contents)

@@ -830,6 +830,7 @@ A Subset for __Architecture and Infrastructure__
   * [Lerna](https://lernajs.io/)
   * [semantic-release](https://www.npmjs.com/package/semantic-release) / [np](https://www.npmjs.com/package/np), [gh-release](https://www.npmjs.com/package/gh-release)
   * [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+  * [check-dependencies](https://www.npmjs.com/package/check-dependencies)
   * [changed-log](https://www.npmjs.com/package/changed-log)
   * [license-checker](https://www.npmjs.com/package/license-checker)
 * Convention
@@ -1617,7 +1618,7 @@ A Subset for __Architecture and Infrastructure__
   * Extract Article - [read-art](https://www.npmjs.com/package/read-art) / [node-readability](https://www.npmjs.com/package/node-readability)
   * Extract Metadata - [url-unshort](https://www.npmjs.com/package/url-unshort) / [embedza](https://www.npmjs.com/package/embedza)
   * Web Crawler - [simplecrawler](https://www.npmjs.com/package/simplecrawler) / [x-ray](https://www.npmjs.com/package/x-ray) / [scrape-it](https://www.npmjs.com/package/scrape-it)
-  * Headless Browsers - see _[Tooling > Testing](#testing) > Web Testing > Headless Browsers_
+  * Headless Browsers Automation - see _[Tooling > Testing](#testing) > Web Testing > Functional Testing > Headless Browser Automation_
 * Images
   * Canvas / WebGL API - [node-canvas](https://www.npmjs.com/package/canvas) / [gl](https://www.npmjs.com/package/gl)
   * Image Manipulation - [gm](https://www.npmjs.com/package/gm) / [sharp](http://sharp.dimens.io/)
@@ -1781,7 +1782,13 @@ A Subset for __Architecture and Infrastructure__
   * Integration Testing
     * [Enzyme](http://airbnb.io/enzyme/)
   * Functional Testing
-    * Headless Browser Automation - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [Nightmare](https://github.com/segmentio/nightmare) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
+    * Headless Browser Automation
+      * DevTools API
+        * Headless Chrome - [Puppeteer](https://github.com/GoogleChrome/puppeteer) / [Chromy](https://www.npmjs.com/package/chromy)
+          * AWS Lambda - [Chromeless](https://www.npmjs.com/package/chromeless)
+        * electron-prebuilt - [Nightmare](https://github.com/segmentio/nightmare)
+      * WebDriver API - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
+          * AWS Lambda - [Lambdium](https://github.com/smithclay/lambdium)
     * Cloud - [BrowserStack Automate](https://www.browserstack.com/automate) / [Sauce Labs](https://saucelabs.com/open-source#automated-testing-platform)
   * Visual Testing
     * [React Storybook](https://storybooks.js.org/) / [React Cosmos](https://github.com/react-cosmos/react-cosmos)
@@ -1793,6 +1800,7 @@ A Subset for __Architecture and Infrastructure__
       * Chromium - [Headless Chrome/Chromium](https://developers.google.com/web/updates/2017/04/headless-chrome)
       * Chromium + Node.js - [electron-prebuilt](https://www.npmjs.com/package/electron)
       * WebKit - [PhantomJS](http://phantomjs.org/)
+        * [Why you should stop using PhantomJS](https://blog.phantombuster.com/why-you-should-stop-using-phantomjs-f5c5f2717209)
       * Gecko - [SlimerJS](https://slimerjs.org/)
     * In-memory X11 Display Server
       * [xvfb](https://en.wikipedia.org/wiki/Xvfb) - [xvfb-run](http://manpages.ubuntu.com/manpages/trusty/man1/xvfb-run.1.html) / [headless](https://www.npmjs.com/package/headless)

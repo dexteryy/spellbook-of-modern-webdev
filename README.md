@@ -2336,9 +2336,9 @@ A Subset for __Architecture and Infrastructure__
   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
   * [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax)
 * Design
-  * [Sketch](https://www.sketchapp.com/learn/) + [Zeplin](https://zeplin.io/) / [Sympli](https://sympli.io/) / [Avocode](https://avocode.com/)
-  * [After Effects](http://www.adobe.com/products/aftereffects.html) + [Lottie](https://airbnb.design/lottie/) / [bodymovin](https://github.com/bodymovin/bodymovin)
-  * [Figma](https://www.figma.com/)
-  * [InVision](https://www.invisionapp.com/)
+  * [Sketch](https://www.sketchapp.com/learn/) / [Figma](https://www.figma.com/)
+  * [InVision](https://www.invisionapp.com/) / [Atomic](https://atomic.io/) / (Proto.io)[https://proto.io/]
+  * [Zeplin](https://zeplin.io/) / [Sympli](https://sympli.io/) / [Avocode](https://avocode.com/) 
+  * [After Effects](http://www.adobe.com/products/aftereffects.html) + [Lottie](https://airbnb.design/lottie/) / [bodymovin](https://github.com/bodymovin/bodymovin) / [Inspector Spacetime](https://google.github.io/inspectorspacetime/) + [Sketch2AE](https://google.github.io/sketch2ae/)
 
 \>\> Return to [Table of Contents](#table-of-contents)

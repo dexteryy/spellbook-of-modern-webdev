@@ -126,7 +126,7 @@
 - [Tooling](#tooling)
   - [Testing](#testing)
     - Unit Testing / Test Runner, Test Doubles
-    - Web Testing (Integration Testing, Functional Testing, Visual testing, Monkey Testing, Headless Browsers)
+    - Web Testing (Integration Testing, Functional/E2E Testing, Visual testing, Monkey Testing, Headless Browsers)
     - Server-side Testing (Functional Testing, Load Testing)
     - Benchmark Testing
     - Analysis (Code Coverage, Node.js Security...)
@@ -150,6 +150,7 @@
     - Output (Color / Style, Icon, Updating Log, Notice, Columns, Curses, Drawing...)
     - Delivery, OS, API, Parser...
   - [IDE / Editors](#ide--editors)
+    - VSCode Plugins (UI, Formating, Operating, Static Analysis, Docs, Assistant, Integration...)
     - Atom Plugins (UI, Formating, Operating, Static Analysis, Docs, Assistant, Integration...)
     - Out-of-the-box Atom IDE, Other Electron-based IDE, Programming Fonts...
   - [Useful Apps](#useful-apps)
@@ -310,7 +311,9 @@ A Subset for __Architecture and Infrastructure__
   * [Permissions](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API), [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation)
   * [Web Notifications](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) , [Vibration](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
 * Network
-  * [XMLHttpRequest2](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) / [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+  * [XMLHttpRequest2](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+  * [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+    * [Abortable Fetch](https://developers.google.com/web/updates/2017/09/abortable-fetch)
     * [Why I won’t be using Fetch API in my apps](https://medium.com/@shahata/why-i-wont-be-using-fetch-api-in-my-apps-6900e6c6fe78)
   * [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), [Server-sent Event](https://developer.mozilla.org/en-US/docs/Web/API/EventSource)
   * [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
@@ -570,12 +573,30 @@ A Subset for __Architecture and Infrastructure__
   * [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
   * [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 * Important Proposals
-  * [ES Modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358) in [Browsers](https://jakearchibald.com/2017/es-modules-in-browsers/) and [Node.js](https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e)
+  * ESM (ECMAScript Modules)
+    * Intro
+      * [The state of JavaScript modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
+      * [ECMAScript 6 modules: the final syntax](http://2ality.com/2014/09/es6-modules-final.html)
+      * [ES6 Modules in Depth](https://ponyfoo.com/articles/es6-modules-in-depth#the-es6-module-system)
+    * Browsers
+      * [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
+    * Node.js
+      * [Node.js, TC-39, and Modules](https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e)
+      * [.mjs](https://nodejs.org/api/esm.html)
+        * [Using ES modules natively in Node.js](http://2ality.com/2017/09/native-esm-node.html)
+      * [@std/esm](https://www.npmjs.com/package/@std/esm)
+        * [ES Modules in Node Today!](https://medium.com/web-on-the-edge/es-modules-in-node-today-32cff914e4b)
+  * [Dynamic Import (`import()`)](https://github.com/tc39/proposal-dynamic-import)
   * [Class Fields & Static Properties](https://github.com/tc39/proposal-class-public-fields/issues/46#issuecomment-239031422)
   * [Decorators](https://github.com/wycats/javascript-decorators)
   * [async/await](https://github.com/yortus/asyncawait), [Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise), [Promise Promote](https://www.promisejs.org/), [Promises/A+](https://promisesaplus.com/implementations)
   * [Observables](https://github.com/tc39/proposal-observable)
   * [Static Typing](https://ecmascript-daily.github.io/pages/status-of-static-typing-in-ecmascript/)
+  * Concurrent JS / Parallel JavaScript
+    * [Concurrent JavaScript: It can work!](https://webkit.org/blog/7846/concurrent-javascript-it-can-work/)
+    * [The Path to Parallel JavaScript](https://blog.mozilla.org/javascript/2015/02/26/the-path-to-parallel-javascript/)
+      * [A Taste of JavaScript’s New Parallel Primitives](https://hacks.mozilla.org/2016/05/a-taste-of-javascripts-new-parallel-primitives/)
+      * [A cartoon intro to ArrayBuffers and SharedArrayBuffers](https://hacks.mozilla.org/2017/06/a-cartoon-intro-to-arraybuffers-and-sharedarraybuffers/)
 * Functional Programming
   * [Functional Programming for JavaScript People](https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504)
   * [Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon)
@@ -614,6 +635,8 @@ A Subset for __Architecture and Infrastructure__
   * [tcomb](https://www.npmjs.com/package/tcomb)
   * [JSDoc Tags](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler)
     * [jsdoc-to-assert](https://github.com/azu/jsdoc-to-assert)
+* Concurrent JS / Parallel JavaScript
+  * [Napa.js](https://github.com/Microsoft/napajs/)
 * Code Style
   * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   * [Node.js Style Guide](https://github.com/felixge/node-style-guide)
@@ -668,10 +691,15 @@ A Subset for __Architecture and Infrastructure__
   * Email
     * [CSS Support Guide for Email Clients](https://www.campaignmonitor.com/css/) / [Email Client CSS Support](https://templates.mailchimp.com/resources/email-client-css-support/)
     * [Email Design Reference](https://templates.mailchimp.com/) + [HTML Email Templates](https://github.com/mailchimp/Email-Blueprints)
-* ECMAScript
+* Node.js
+  * Platform Releases
+    * [Node.js Release Working Group](https://github.com/nodejs/Release)
+* ECMAScript Support
   * [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/)
-  * [Node.js ES2015 Support](http://node.green/)
-    * Node 8.x - [V8 5.9](https://v8project.blogspot.hk/2017/04/v8-release-59.html), [Ignition + Turbofan launched](https://v8project.blogspot.hk/2017/05/launching-ignition-and-turbofan.html)
+  * [Node.js ES2015+ Support](http://node.green/)
+    * Node 10.x LTS - Supports ES modules natively (without `--experimental-modules`)
+    * [Node.8.5](https://nodejs.org/en/blog/release/v8.5.0/) - Supports ES modules natively (`.mjs` + `--experimental-modules`)
+    * [Node 8.3](https://nodejs.org/en/blog/release/v8.3.0/) - [V8 6.0](https://v8project.blogspot.hk/2017/04/v8-release-59.html), [Ignition + Turbofan launched](https://v8project.blogspot.hk/2017/05/launching-ignition-and-turbofan.html)
     * [Node 8.0 LTS](https://nodejs.org/en/blog/release/v8.0.0/) - [V8 5.8](https://v8project.blogspot.hk/2017/03/v8-release-58.html), [Five New Features You Need To Know](http://codingsans.com/blog/node-8)
     * [Node 7.6](https://nodejs.org/en/blog/release/v7.6.0/) - [V8 5.5](https://v8project.blogspot.hk/2016/10/v8-release-55.html), Async functions
     * [Node 6.0 LTS](https://nodejs.org/en/blog/release/v6.0.0/) - [V8 5.0](https://v8project.blogspot.hk/2016/03/v8-release-50.html), 93% of ES6 language features
@@ -730,6 +758,8 @@ A Subset for __Architecture and Infrastructure__
       * JavaScript performance updates - [2015](https://blogs.windows.com/msedgedev/2015/05/20/delivering-fast-javascript-performance-in-microsoft-edge), [2016](https://blogs.windows.com/msedgedev/2016/06/22/javascript-performance-updates-anniversary-update/), [2017](https://blogs.windows.com/msedgedev/2017/04/20/improved-javascript-performance-webassembly-shared-memory/)
     * Next Generation
       * [Roadmap](https://github.com/Microsoft/ChakraCore/wiki/Roadmap)
+  * [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)
+    * [The monkeys in 2013](https://blog.mozilla.org/javascript/2014/01/23/the-monkeys-in-2013/)
   * Benchmarks
     * [The truth about traditional JavaScript benchmarks](http://benediktmeurer.de/2016/12/16/the-truth-about-traditional-javascript-benchmarks/)
     * [Browser Benchmarks](http://browserbench.org/)
@@ -1005,6 +1035,8 @@ A Subset for __Architecture and Infrastructure__
       * [Preact](https://preactjs.com/) / [Inferno](https://infernojs.org/)
   * [Angular](https://angular.io/)
   * [Vue.js](https://vuejs.org/)
+  * Cross-framework
+    * [vuera](https://github.com/akxcv/vuera)
 * Model / App State
   * [Redux](http://redux.js.org/)
     * Learning
@@ -1059,6 +1091,7 @@ A Subset for __Architecture and Infrastructure__
   * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
 * Scaffold / Boilerplate / Generator
   * [create-react-app](https://github.com/facebookincubator/create-react-app) / [angular-cli](https://cli.angular.io/) / [vue-cli](https://www.npmjs.com/package/vue-cli)
+  * [Next.js](https://github.com/zeit/next.js)
   * [react-starter-kit](https://github.com/kriasoft/react-starter-kit) / [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)
   * [JavaScript Stack from Scratch](https://github.com/verekia/js-stack-from-scratch)
   * Static Site Generator - [Gatsby](https://www.gatsbyjs.org/) / [Metalsmith](http://www.metalsmith.io/) / [Hexo](https://hexo.io/) / [Assemble](http://assemble.io/)
@@ -1548,6 +1581,7 @@ A Subset for __Architecture and Infrastructure__
 * GraphQL
   * [Schemas and Types](http://graphql.org/learn/schema/)
     * [GraphQL Schema Language Cheat Sheet](https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6)
+  * [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
   * [graphql-tools](http://dev.apollodata.com/tools/graphql-tools/index.html)
     * [graphql-tools: A simpler way to create GraphQL APIs](https://dev-blog.apollodata.com/graphql-tools-a-simpler-way-to-create-graphql-apis-eadf018f3766)
   * [graphql-anywhere](https://www.npmjs.com/package/graphql-anywhere)
@@ -1777,14 +1811,16 @@ A Subset for __Architecture and Infrastructure__
   * [Jest](https://facebook.github.io/jest/)
   * [AVA](https://github.com/avajs/ava)
   * [Mocha](https://mochajs.org/) + [Chai](http://chaijs.com/)
+  * [Cypress](https://www.cypress.io/)
   * [Karma](https://karma-runner.github.io)
 * Web Testing
   * Integration Testing
     * [Enzyme](http://airbnb.io/enzyme/)
-  * Functional Testing
+  * Functional Testing / E2E Testing
     * Headless Browser Automation
       * DevTools API
         * Headless Chrome - [Puppeteer](https://github.com/GoogleChrome/puppeteer) / [Chromy](https://www.npmjs.com/package/chromy)
+          * [End-to-end Tests that Don’t Suck with Puppeteer](https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/)
           * AWS Lambda - [Chromeless](https://www.npmjs.com/package/chromeless)
         * electron-prebuilt - [Nightmare](https://github.com/segmentio/nightmare)
       * WebDriver API - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
@@ -2056,7 +2092,7 @@ A Subset for __Architecture and Infrastructure__
 * Deployment
   * Publishing App
     * Server-side Rendering
-      * [Next.js](https://github.com/zeit/next.js)
+      * [Hypernova](https://github.com/airbnb/hypernova)
       * [React Isomorphic Render](https://www.npmjs.com/package/react-isomorphic-render)
       * [React Engine](https://www.npmjs.com/package/react-engine)
       * [Express React Views](https://www.npmjs.com/package/express-react-views)
@@ -2214,24 +2250,84 @@ A Subset for __Architecture and Infrastructure__
 
 ### IDE / Editors
 
+* [VS Code](https://code.visualstudio.com/) Plugins
+  * UI
+    * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
+    * [Indenticator](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator)
+  * Operating
+    * [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+    * [Search node_modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules)
+    * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+    * [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+    * [Lorem ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum) / [Chinese Lorem Ipsum](https://marketplace.visualstudio.com/items?itemName=galend.vsc-lorem-cn)
+    * Snippets
+      * [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+      * [JavaScript Snippet Pack](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-javascript-snippet-pack)
+      * [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+      * [React Redux ES6 Snippets](https://marketplace.visualstudio.com/items?itemName=timothymclane.react-redux-es6-snippets)
+      * [eslint-disable-snippets](https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snippets)
+      * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+      * [SVG Icons](https://marketplace.visualstudio.com/items?itemName=idleberg.svg-icons)
+      * [Icon Fonts](https://marketplace.visualstudio.com/items?itemName=idleberg.icon-fonts)
+  * Formating
+    * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) / [stylefmt](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-stylefmt)
+    * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+    * [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+    * [Align](https://marketplace.visualstudio.com/items?itemName=steve8708.Align)
+  * Static Analysis
+    * [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+    * [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
+    * [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+    * Syntax
+      * [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules)
+      * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+      * [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
+      * [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
+  * Docs
+    * [Dash](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash)
+    * [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
+    * [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
+    * [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer)
+    * [API Elements extension](https://marketplace.visualstudio.com/items?itemName=vncz.vscode-apielements)
+  * Assistant
+    * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+    * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+    * [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+    * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+  * Integration
+    * VCS
+      * [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+      * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+      * [Open in GitHub](https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github)
+    * [Share Code](https://marketplace.visualstudio.com/items?itemName=RolandGreim.sharecode)
+    * Debug
+      * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+      * [Node Debug 2](https://marketplace.visualstudio.com/items?itemName=ms-vscode.node-debug2)
+      * [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+    * [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
+    * [Cordova Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools)
+    * Write
+      * [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+      * [Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=vstirbu.vscode-mermaid-preview)
 * [Atom](https://atom.io/) Plugins
   * UI
     * [fonts](https://atom.io/packages/fonts)
     * [file-icons](https://atom.io/packages/file-icons)
     * [highlight-line](https://atom.io/packages/highlight-line), [highlight-selected](https://atom.io/packages/highlight-selected)
     * [indent-guide-improved](https://atom.io/packages/indent-guide-improved), [trailing-spaces](https://atom.io/packages/trailing-spaces)
-  * Formating
-    * [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation), [editorconfig](https://atom.io/packages/editorconfig)
-    * [prettier-atom](https://atom.io/packages/prettier-atom)
-    * [atom-stylefmt](https://atom.io/packages/stylefmt) / [postcss-sorting](https://atom.io/packages/postcss-sorting) / [atom-beautify](https://atom.io/packages/atom-beautify)
-    * [aligner](https://atom.io/packages/aligner) / [atom-alignment](https://atom.io/packages/atom-alignment)
-    * [toggle-quotes](https://atom.io/packages/toggle-quotes)
   * Operating
     * [vim-mode-plus](https://atom.io/packages/vim-mode-plus), [jumpy](https://atom.io/packages/jumpy)
     * [Sublime-Style-Column-Selection](https://atom.io/packages/Sublime-Style-Column-Selection)
     * [Emmet](https://atom.io/packages/emmet)
     * Snippets
       * [turbo-javascript](https://atom.io/packages/turbo-javascript)
+  * Formating
+    * [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation), [editorconfig](https://atom.io/packages/editorconfig)
+    * [prettier-atom](https://atom.io/packages/prettier-atom)
+    * [atom-stylefmt](https://atom.io/packages/stylefmt) / [postcss-sorting](https://atom.io/packages/postcss-sorting) / [atom-beautify](https://atom.io/packages/atom-beautify)
+    * [aligner](https://atom.io/packages/aligner) / [atom-alignment](https://atom.io/packages/atom-alignment)
+    * [toggle-quotes](https://atom.io/packages/toggle-quotes)
   * Static Analysis
     * [file-types](https://atom.io/packages/file-types)
     * [language-babel](https://atom.io/packages/language-babel), [atom-ternjs](https://atom.io/packages/atom-ternjs)
@@ -2255,8 +2351,6 @@ A Subset for __Architecture and Infrastructure__
   * [Nuclide](https://nuclide.io/)
   * [Reactide](http://reactide.io/)
 * Other Electron-based IDE
-  * [VS Code](https://code.visualstudio.com/)
-    * [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode)
   * [Deco](https://www.decoide.org/)
 * [WebStorm](https://www.jetbrains.com/webstorm/)
 * Programming Fonts
@@ -2281,7 +2375,7 @@ A Subset for __Architecture and Infrastructure__
   * [RunKit](https://runkit.com)
   * [RequestBin](http://requestb.in/)
   * [jsPerf](https://jsperf.com/)
-  * [Apollo Launchpad](https://launchpad.graphql.com)
+  * [GraphQL Playground](https://github.com/graphcool/graphql-playground), [Apollo Launchpad](https://launchpad.graphql.com)
   * [GLSL Sandbox](http://glslsandbox.com/)
 * Visual Tools
   * Performance

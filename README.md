@@ -1033,6 +1033,7 @@ A Subset for __Architecture and Infrastructure__
       * [Formsy React](https://www.npmjs.com/package/formsy-react) / [React Form](https://www.npmjs.com/package/react-form)
     * Lightweight Alternative
       * [Preact](https://preactjs.com/) / [Inferno](https://infernojs.org/)
+  * [slim.js](http://slimjs.com)
   * [Angular](https://angular.io/)
   * [Vue.js](https://vuejs.org/)
   * Cross-framework

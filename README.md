@@ -1205,6 +1205,7 @@ A Subset for __Architecture and Infrastructure__
   * Auto-formatting - [React MaskedInput](https://www.npmjs.com/package/react-maskedinput) / [React Text Mask](https://www.npmjs.com/package/react-text-mask) / [Cleave.js](https://www.npmjs.com/package/cleave.js)
 * Form
   * [React JSON Schema Form](https://www.npmjs.com/package/react-jsonschema-form)
+  * [Formik](https://www.npmjs.com/package/formik)
 * Overlay
   * [React Overlays](https://www.npmjs.com/package/react-overlays)
   * [React Modal](https://www.npmjs.com/package/react-modal) / [vex](https://www.npmjs.com/package/vex-js) / [SweetAlert2](https://www.npmjs.com/package/sweetalert2)

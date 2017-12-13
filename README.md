@@ -1030,7 +1030,7 @@ A Subset for __Architecture and Infrastructure__
       * [React Cookie](https://www.npmjs.com/package/react-cookie)
     * Use React Alone
       * [Redial](https://www.npmjs.com/package/redial) / [React Refetch](https://www.npmjs.com/package/react-refetch)
-      * [Formsy React](https://www.npmjs.com/package/formsy-react) / [React Form](https://www.npmjs.com/package/react-form)
+      * [Formsy React](https://www.npmjs.com/package/formsy-react) / [formik](https://www.npmjs.com/package/formik) / [React Form](https://www.npmjs.com/package/react-form)
     * Lightweight Alternative
       * [Preact](https://preactjs.com/) / [Inferno](https://infernojs.org/)
   * [Angular](https://angular.io/)

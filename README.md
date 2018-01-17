@@ -256,6 +256,7 @@ A Subset for __Architecture and Infrastructure__
     * [Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/),
        [CSS and the critical path](http://www.phpied.com/css-and-the-critical-path/)
     * [Evolution of Script Loading](https://www.stevesouders.com/blog/2010/12/06/evolution-of-script-loading/), [Browser script loading roundup](https://www.stevesouders.com/blog/2010/02/07/browser-script-loading-roundup/)
+    * [JavaScript Start-up Performance](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
   * Offline
     * [Offline UX Considerations](https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux)
     * [The offline cookbook](https://jakearchibald.com/2014/offline-cookbook/)
@@ -264,6 +265,9 @@ A Subset for __Architecture and Infrastructure__
     * [Measuring Page Load Speed with Navigation Timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/)
     * [Measuring network performance with Resource Timing API](https://developers.googleblog.com/2013/12/measuring-network-performance-with.html)
     * [User Timing API](https://www.html5rocks.com/en/tutorials/webperformance/usertiming/)
+    * [Why Web Developers Need to Care about Interactivity](https://philipwalton.com/articles/why-web-developers-need-to-care-about-interactivity/)
+      * [requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)
+      * [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver)
 * Security
   * [The Tangled Web: A Guide to Securing Modern Web Applications](http://lcamtuf.coredump.cx/tangled/)
   * [HTML5 Security Cheatsheet](https://html5sec.org/)
@@ -999,6 +1003,7 @@ A Subset for __Architecture and Infrastructure__
   * [compromise](https://github.com/nlp-compromise/compromise) / [talisman](http://yomguithereal.github.io/talisman/)
 * ML
   * [MLJS](https://www.npmjs.com/package/ml), [Synaptic](https://www.npmjs.com/package/synaptic)
+  * [deeplearn.js](https://deeplearnjs.org/)
 
 \>\> Return to [Table of Contents](#table-of-contents)
 
@@ -1227,7 +1232,8 @@ A Subset for __Architecture and Infrastructure__
   * [Draft.js](https://draftjs.org/)
     * [Awesome Draft.js](https://github.com/nikgraf/awesome-draft-js)
   * [React Quill](https://www.npmjs.com/package/react-quill) / [Quill](https://quilljs.com/)
-  * [React Ace](https://www.npmjs.com/package/react-ace) / [React Codemirror](https://www.npmjs.com/package/react-codemirror)
+  * [React Monaco Editor](https://www.npmjs.com/package/react-monaco-editor) / [React Ace](https://www.npmjs.com/package/react-ace) / [React Codemirror](https://www.npmjs.com/package/react-codemirror)
+    * [Monaco Editor](https://microsoft.github.io/monaco-editor/) / [Ace](https://ace.c9.io/) / [CodeMirror](https://codemirror.net/)
   * [React Markdown](https://www.npmjs.com/package/react-markdown)
   * [React Syntax Highlighter](https://www.npmjs.com/package/react-syntax-highlighter) / [Highlight.js](https://www.npmjs.com/package/highlight.js)
 * Widget
@@ -2348,6 +2354,7 @@ A Subset for __Architecture and Infrastructure__
     * [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
     * [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
     * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+    * [Quokka.js - Live Scratchpad for JavaScript](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
   * Integration
     * VCS
       * [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)

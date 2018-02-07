@@ -1231,6 +1231,7 @@ A Subset for __Architecture and Infrastructure__
 * Editor
   * [Draft.js](https://draftjs.org/)
     * [Awesome Draft.js](https://github.com/nikgraf/awesome-draft-js)
+  * [Slate](https://github.com/ianstormtaylor/slate)
   * [React Quill](https://www.npmjs.com/package/react-quill) / [Quill](https://quilljs.com/)
   * [React Monaco Editor](https://www.npmjs.com/package/react-monaco-editor) / [React Ace](https://www.npmjs.com/package/react-ace) / [React Codemirror](https://www.npmjs.com/package/react-codemirror)
     * [Monaco Editor](https://microsoft.github.io/monaco-editor/) / [Ace](https://ace.c9.io/) / [CodeMirror](https://codemirror.net/)

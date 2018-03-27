@@ -380,6 +380,8 @@ A Subset for __Architecture and Infrastructure__
     * [CSS Diner - Where we feast on CSS Selectors!](http://flukeout.github.io/)
   * [An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
   * [@supports Rule (Feature Queries)](https://www.sitepoint.com/an-introduction-to-css-supports-rule-feature-queries/)
+  * [Houdini](https://github.com/w3c/css-houdini-drafts/wiki)
+    * [Houdini: Demystifying CSS](https://developers.google.com/web/updates/2016/05/houdini), [Houdini: Maybe The Most Exciting Development In CSS You've Never Heard Of](https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/)
 * Responsive Web Design
   * Intro - see _[Platforms and Languages > Next Generation CSS](#next-generation-css) > Know More about Web Design_
   * Media Queries
@@ -438,25 +440,33 @@ A Subset for __Architecture and Infrastructure__
 
 ### Next Generation CSS
 
-* [CSS Modules](https://github.com/css-modules/css-modules)
-  * [The End of Global CSS](https://medium.com/seek-blog/the-end-of-global-css-90d2a4a06284)
-  * Tools - see _[Tooling > Toolchain](#toolchain) > Builder / Bundler > Webpack_
-* [PostCSS](http://postcss.org/)
-  * Intro
-    * [Meet PostCSS](http://www.meetpostcss.com/)
-    * [PostCSS – A Comprehensive Introduction](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
-    * [PostCSS – Sass Killer or Preprocessing Pretender?](https://ashleynolan.co.uk/blog/postcss-a-review)
-    * [PostCSS Playground](https://sneakertack.github.io/postcss-playground/)
-  * [CSSNext](http://cssnext.io/)
-    * [It’s Time To Start Using CSS Custom Properties](https://www.smashingmagazine.com/2017/04/start-using-css-custom-properties/)
-    * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
-  * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
+* Preprocessor-based CSS
+  * [CSS Modules](https://github.com/css-modules/css-modules)
+    * [The End of Global CSS](https://medium.com/seek-blog/the-end-of-global-css-90d2a4a06284)
+    * Tools - see _[Tooling > Toolchain](#toolchain) > Builder / Bundler > Webpack_
+  * [PostCSS](http://postcss.org/)
+    * Intro
+      * [Meet PostCSS](http://www.meetpostcss.com/)
+      * [PostCSS – A Comprehensive Introduction](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
+      * [PostCSS – Sass Killer or Preprocessing Pretender?](https://ashleynolan.co.uk/blog/postcss-a-review)
+      * [PostCSS Playground](https://sneakertack.github.io/postcss-playground/)
+    * [CSSNext](http://cssnext.io/)
+      * [It’s Time To Start Using CSS Custom Properties](https://www.smashingmagazine.com/2017/04/start-using-css-custom-properties/)
+      * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
+    * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
 * [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
   * Intro
     * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+    * [A Brief History of CSS-in-JS: How We Got Here and Where We’re Going](https://levelup.gitconnected.com/a-brief-history-of-css-in-js-how-we-got-here-and-where-were-going-ea6261c19f04), [The State of CSS](http://ryanogles.by/css/javascript/2017/05/25/the-state-of-css.html)
+    * [Comparison of CSS-in-JS solutions](http://michelebertoli.github.io/css-in-js/)
   * [Styled-Components](https://github.com/styled-components/styled-components)
     * [Styled Components: Enforcing Best Practices In Component-Based Systems](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/)
     * [Writing your styles in JS ≠ writing inline styles](http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/)
+    * Libraries
+      * [system-components](https://github.com/jxnblk/styled-system/tree/master/system-components) / [styled-system](https://github.com/jxnblk/styled-system)
+      * [styled-normalize](https://github.com/sergeysova/styled-normalize)
+      * [styled-components-breakpoint](https://github.com/jameslnewell/styled-components-breakpoint)
+      * [styled-tools](https://github.com/diegohaz/styled-tools)
   * [Aphrodite](https://github.com/Khan/aphrodite)
     * [Inline CSS at Khan Academy: Aphrodite](http://engineering.khanacademy.org/posts/aphrodite-inline-css.htm)
   * [JSS](http://cssinjs.org/), [Radium](http://formidable.com/open-source/radium/)
@@ -509,6 +519,9 @@ A Subset for __Architecture and Infrastructure__
       * [CSS with vertical rhythm](https://drewish.com/tools/vertical-rhythm/)
     * [More Meaningful Typography](https://alistapart.com/article/more-meaningful-typography)
       * [Modular Scale](http://www.modularscale.com/)
+  * Design System
+    * [A comprehensive guide to design systems](https://www.invisionapp.com/blog/guide-to-design-systems/), [Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/introducing-design-systems)
+    * [styled-system](https://github.com/jxnblk/styled-system)
   * Style Guide
     * [Style Guide Driven Development / Living Style Guides](http://styleguides.io/)
     * Tools - see _[Tooling > Documentation](#documentation) > Style Guide_
@@ -923,6 +936,8 @@ A Subset for __Architecture and Infrastructure__
     * Promise - [es6-promisify](https://www.npmjs.com/package/es6-promisify), [Bluebird](http://bluebirdjs.com/docs/features.html)
     * Generator - [Co](https://www.npmjs.com/package/co)
     * Callback - [Async](http://caolan.github.io/async/)
+  * Concurrent / Parallel
+    * Web Worker - [Greenlet](https://github.com/developit/greenlet) / [Workerize](https://github.com/developit/workerize)
   * Syntax
     * [XRegExp](https://www.npmjs.com/package/xregexp)
   * Node.js API
@@ -952,7 +967,7 @@ A Subset for __Architecture and Infrastructure__
   * Numbers
     * Number Manipulation - [Numeral.js](http://numeraljs.com/)
     * Money - [accounting.js](http://openexchangerates.github.io/accounting.js/)
-    * Computation - [Math.js](http://mathjs.org/), [Simple Statistics](https://simplestatistics.org/), [ndarray](https://www.npmjs.com/package/ndarray)
+    * Computation - [Math.js](http://mathjs.org/), [Simple Statistics](https://simplestatistics.org/), [ndarray](https://www.npmjs.com/package/ndarray), [bignumber.js](http://mikemcl.github.io/bignumber.js/)
   * Color
     * Color Manipulation - [Chroma.js](http://gka.github.io/chroma.js/), [Chromatism](https://www.npmjs.com/package/chromatism), [randomColor](https://www.npmjs.com/package/randomcolor)
     * Color Extraction - [node-vibrant](https://www.npmjs.com/package/node-vibrant) / [Colorify.js](http://colorify.rocks/)
@@ -1096,13 +1111,17 @@ A Subset for __Architecture and Infrastructure__
       * Testing - see _[Testing](#testing) > Web Testing > Integration Testing_
   * [MobX](https://mobx.js.org)
   * [Baobab](https://www.npmjs.com/package/baobab) / [Freezer](https://www.npmjs.com/package/freezer-js)
-* API
+* API / Data Source
   * [GraphQL](http://graphql.org/)
     * Learning
       * [Learn GraphQL](https://learngraphql.com)
       * [Queries and Mutations](http://graphql.org/learn/queries/)
       * Playground - [GraphQLHub](https://www.graphqlhub.com/), [Explore GraphQL](https://www.graphql.com/tutorials/)
-    * [React Apollo](http://dev.apollodata.com/react/), [Learn Apollo](https://www.learnapollo.com/)
+    * State Management
+      * [Apollo Client](https://www.apollographql.com/client/)
+      * [redux-source](https://github.com/dexteryy/Project-WebCube/tree/master/packages/redux-source) (Author's own project)
+    * [graphql-anywhere](https://www.npmjs.com/package/graphql-anywhere)
+    * [graphql-tools](http://dev.apollodata.com/tools/graphql-tools/index.html)
 * Offline First
   * Learning
     * [Designing Offline-First Web Apps](https://alistapart.com/article/offline-first)
@@ -1501,6 +1520,7 @@ A Subset for __Architecture and Infrastructure__
     Microsoft's [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design), [REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md), \
     [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api), \
     [Principles of good RESTful API Design](https://codeplanet.io/principles-good-restful-api-design/)
+  * [REST API Error Codes 101](http://blog.restcase.com/rest-api-error-codes-101/)
   * [Introducing JSON](http://json.org/)
 * Microservices
   * [A pattern language for microservices](http://microservices.io/patterns/index.html)
@@ -1608,7 +1628,8 @@ A Subset for __Architecture and Infrastructure__
           * [express-jwt](https://www.npmjs.com/package/express-jwt) / [passport.js](http://passportjs.org/)
         * Proxy
           * [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) / [rocky](https://www.npmjs.com/package/rocky)
-          * [apollo-server](https://github.com/apollographql/apollo-server) / [express-graphql](https://www.npmjs.com/package/express-graphql)
+        * GraphQL
+          * [apollo-server-express](https://www.apollographql.com/docs/apollo-server/servers/express.html) / [express-graphql](https://www.npmjs.com/package/express-graphql)
     * Rich Framework
       * Configuration - [Hapi](https://hapijs.com/)
       * Realtime - [Feathers](https://feathersjs.com/)
@@ -1623,9 +1644,11 @@ A Subset for __Architecture and Infrastructure__
   * [Schemas and Types](http://graphql.org/learn/schema/)
     * [GraphQL Schema Language Cheat Sheet](https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6)
   * [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
-  * [graphql-tools](http://dev.apollodata.com/tools/graphql-tools/index.html)
-    * [graphql-tools: A simpler way to create GraphQL APIs](https://dev-blog.apollodata.com/graphql-tools-a-simpler-way-to-create-graphql-apis-eadf018f3766)
-  * [graphql-anywhere](https://www.npmjs.com/package/graphql-anywhere)
+  * Server
+    * [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
+    * [graphql-tools](http://dev.apollodata.com/tools/graphql-tools/index.html)
+  * Resolvers
+    * [graphql-resolvers](https://github.com/lucasconstantino/graphql-resolvers)
 * DocGen + CodeGen
   * [API Blueprint](https://apiblueprint.org/) / [Swagger](http://swagger.io/) / [RAML](http://raml.org/)
     * Parser - [Protagonist](https://www.npmjs.com/package/protagonist) / [Drafter](https://www.npmjs.com/package/drafter)
@@ -1693,7 +1716,7 @@ A Subset for __Architecture and Infrastructure__
   * HTML Parsing - [parse5](http://inikulin.github.io/parse5/index.html) / [htmlparser2](https://www.npmjs.com/package/htmlparser2)
   * Extract Article - [read-art](https://www.npmjs.com/package/read-art) / [node-readability](https://www.npmjs.com/package/node-readability)
   * Extract Metadata - [url-unshort](https://www.npmjs.com/package/url-unshort) / [embedza](https://www.npmjs.com/package/embedza)
-  * Web Crawler - [simplecrawler](https://www.npmjs.com/package/simplecrawler) / [x-ray](https://www.npmjs.com/package/x-ray) / [scrape-it](https://www.npmjs.com/package/scrape-it)
+  * Web Crawler - [simplecrawler](https://www.npmjs.com/package/simplecrawler) / [x-ray](https://www.npmjs.com/package/x-ray) / [scrape-it](https://www.npmjs.com/package/scrape-it) / [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler)
   * Headless Browsers Automation - see _[Tooling > Testing](#testing) > Web Testing > Functional Testing > Headless Browser Automation_
 * Images
   * Canvas / WebGL API - [node-canvas](https://www.npmjs.com/package/canvas) / [gl](https://www.npmjs.com/package/gl)
@@ -2436,6 +2459,7 @@ A Subset for __Architecture and Infrastructure__
   * [RunKit](https://runkit.com)
   * [RequestBin](http://requestb.in/)
   * [jsPerf](https://jsperf.com/)
+  * [CSS in JS Playground](https://css-in-js-playground.com/)
   * [GraphQL Playground](https://github.com/graphcool/graphql-playground), [Apollo Launchpad](https://launchpad.graphql.com)
   * [GLSL Sandbox](http://glslsandbox.com/)
   * [ImmutableJS REPL](http://neilff.github.io/immutable-repl/?)

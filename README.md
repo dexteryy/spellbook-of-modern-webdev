@@ -1061,7 +1061,7 @@ A Subset for __Architecture and Infrastructure__
       * [Preact](https://preactjs.com/) / [Inferno](https://infernojs.org/)
   * [Angular](https://angular.io/)
   * [Vue.js](https://vuejs.org/)
-  * Cross-framework
+  * Cross-framework
     * [vuera](https://github.com/akxcv/vuera)
 * Model / App State
   * [Redux](http://redux.js.org/)

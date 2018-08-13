@@ -228,7 +228,7 @@ A Subset for __Architecture and Infrastructure__
   * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
     * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference), [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model), [DOM Events](https://developer.mozilla.org/en-US/docs/Web/Events), [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
   * [Google Developers](https://developers.google.com/web/)
-    * [Web Fundamentals](https://developers.google.com/web/fundamentals/), [HTML5Rocks](https://www.html5rocks.com/)
+    * [Web Fundamentals](https://developers.google.com/web/fundamentals/), [HTML5Rocks Archived Tutorials](https://www.html5rocks.com/en/tutorials/)
   * Apple
     * [WebKit JS](https://developer.apple.com/reference/webkitjs/), [WebKit DOM Programming Topics](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/SafariJSProgTopics)
     * [Safari Web Content Guide](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/), [Safari HTML Reference](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html), [Safari CSS Reference](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariCSSRef/), [Safari CSS Visual Effects Guide](https://developer.apple.com/library/content/documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/)
@@ -273,7 +273,7 @@ A Subset for __Architecture and Infrastructure__
   * [HTML5 Security Cheatsheet](https://html5sec.org/)
 * Semantics / SEO / Accessibility
   * [Let’s Talk about Semantics](http://html5doctor.com/lets-talk-about-semantics/)
-  * [SEO Tutorial For Beginners in 2017](https://www.hobo-web.co.uk/seo-tutorial/), \
+  * [SEO Tutorial For Beginners](https://www.hobo-web.co.uk/seo-tutorial/), \
     Google's [Search Engine Optimization Starter Guide](http://www.google.com/webmasters/docs/search-engine-optimization-starter-guide.pdf)
   * [The A11Y Project](http://a11yproject.com/), [Using ARIA](https://w3c.github.io/using-aria/)
 
@@ -570,14 +570,14 @@ A Subset for __Architecture and Infrastructure__
       * Notes
         * [Equality operators](http://dmitrysoshnikov.com/notes/note-2-ecmascript-equality-operators/), [Default values of parameters](http://dmitrysoshnikov.com/ecmascript/es6-notes-default-values-of-parameters/)
     * Dmitri Pavlutin
-      * [equality operator](https://rainsoft.io/the-legend-of-javascript-equality-operator/), [undefined](https://rainsoft.io/7-tips-to-handle-undefined-in-javascript/)
-      * [variables hoisting](https://rainsoft.io/javascript-hoisting-in-details/), [variables lifecycle](https://rainsoft.io/variables-lifecycle-and-why-let-is-not-hoisted/)
-      * [declare functions](https://rainsoft.io/6-ways-to-declare-javascript-functions/), ['this' keyword](https://rainsoft.io/gentle-explanation-of-this-in-javascript/)
-      * [three dots](https://rainsoft.io/how-three-dots-changed-javascript/)
-      * [array creation](https://rainsoft.io/power-up-the-array-creation-in-javascript/), [object literals](https://rainsoft.io/why-object-literals-in-javascript-are-cool/)
-      * [well-known symbols](https://rainsoft.io/detailed-overview-of-well-known-symbols/)
-      * [small and plain functions](https://rainsoft.io/the-art-of-writing-small-and-plain-functions/)
-      * [unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
+      * [equality operator](https://dmitripavlutin.com/the-legend-of-javascript-equality-operator/), [undefined](https://dmitripavlutin.com/7-tips-to-handle-undefined-in-javascript/)
+      * [variables hoisting](https://dmitripavlutin.com/javascript-hoisting-in-details/), [variables lifecycle](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/)
+      * [declare functions](https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/), ['this' keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
+      * [three dots](https://dmitripavlutin.com/how-three-dots-changed-javascript/)
+      * [array creation](https://dmitripavlutin.com/power-up-the-array-creation-in-javascript/), [object literals](https://dmitripavlutin.com/why-object-literals-in-javascript-are-cool/)
+      * [well-known symbols](https://dmitripavlutin.com/detailed-overview-of-well-known-symbols/)
+      * [small and plain functions](https://dmitripavlutin.com/the-art-of-writing-small-and-plain-functions/)
+      * [unicode](https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/)
     * Other
       * [The Evolution of JavaScript Modularity](https://github.com/myshov/history-of-javascript/tree/master/4_evolution_of_js_modularity)
       * [About object-oriented design and the “class” & “extends” keywords in ES6](http://blog.wolksoftware.com/about-classes-inheritance-and-object-oriented-design-in-typescript-and-es6)
@@ -601,7 +601,7 @@ A Subset for __Architecture and Infrastructure__
       * [Node.js, TC-39, and Modules](https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e)
       * [.mjs](https://nodejs.org/api/esm.html)
         * [Using ES modules natively in Node.js](http://2ality.com/2017/09/native-esm-node.html)
-      * [@std/esm](https://www.npmjs.com/package/@std/esm)
+      * [esm](https://www.npmjs.com/package/esm)
         * [ES Modules in Node Today!](https://medium.com/web-on-the-edge/es-modules-in-node-today-32cff914e4b)
   * [Dynamic Import (`import()`)](https://github.com/tc39/proposal-dynamic-import)
   * [Class Fields & Static Properties](https://github.com/tc39/proposal-class-public-fields/issues/46#issuecomment-239031422)
@@ -695,7 +695,7 @@ A Subset for __Architecture and Infrastructure__
     * [Can I Use](http://caniuse.com/)
     * [Chrome](https://www.chromestatus.com/features), [WebKit](https://webkit.org/status/), [Firefox](https://platform-status.mozilla.org/), [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/), [TBS (China)](http://x5.tencent.com/tbs/guide/w3c.html)
   * Platform Releases
-    * [Chrome](https://chromereleases.googleblog.com/), [Safari](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Introduction/Introduction.html) ([Webkit](https://trac.webkit.org/)), [Firefox](https://www.mozilla.org/en-US/firefox/releases/), [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/)
+    * [Chrome](https://chromereleases.googleblog.com/), [Safari](https://developer.apple.com/safari/whats-new/) ([Webkit](https://trac.webkit.org/)), [Firefox](https://www.mozilla.org/en-US/firefox/releases/), [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/)
   * Platform Updates
     * [Mozilla Hacks](https://hacks.mozilla.org/)
     * [Web Updates](https://developers.google.com/web/updates/), [Chromium Blog](https://blog.chromium.org/)
@@ -733,7 +733,7 @@ A Subset for __Architecture and Infrastructure__
       * [An Inside View of the CSS Working Group at W3C](http://fantasai.inkedblade.net/weblog/2011/inside-csswg/)
   * [WICG](https://wicg.github.io/admin/charter.html) (Web Incubator Community Group)
     * [Proposals](https://github.com/WICG)
-  * [WHATWG](https://wiki.whatwg.org/wiki/FAQ#The_WHATWG) (Web Hypertext Application Technology Working Group)
+  * [WHATWG](https://whatwg.org/faq) (Web Hypertext Application Technology Working Group)
     * [WHATWG Live Standards](https://spec.whatwg.org/)
     * Inside
       * [W3C vs. WHATWG HTML5 Specs – The Differences Documented](http://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/)
@@ -742,9 +742,8 @@ A Subset for __Architecture and Infrastructure__
       * [ECMAScript Proposals](https://github.com/tc39/proposals) / [TC39 Proposals](https://prop-tc39.now.sh/)
     * Inside
       * [The TC39 Process](http://tc39.github.io/process-document/) / [The TC39 process for ECMAScript features](http://2ality.com/2015/11/tc39-process.html)
-  * [Node.js CTC](https://github.com/nodejs/CTC) (Node.js Core Technical Committee)
-    * [Meeting Notes](https://github.com/nodejs/CTC/tree/master/meetings)
-    * [Node.js EPs (Enhancement Proposals)](https://github.com/nodejs/node-eps)
+  * [Node.js TSC](https://github.com/nodejs/TSC) (Node.js Foundation Technical Steering Committee)
+    * [Meeting Notes](https://github.com/nodejs/TSC/tree/master/meetings)
     * Inside
       * [How Node.js created a model open source community](https://readwrite.com/2016/04/15/how-node-js-model-open-source-community-pl1/)
       * [Healthy Open Source](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)
@@ -787,7 +786,7 @@ A Subset for __Architecture and Infrastructure__
   * [Cordova](https://cordova.apache.org/)
     * [Platform Support](https://cordova.apache.org/docs/en/latest/guide/support/index.html)
     * [Top Mistakes by Developers new to Cordova/Phonegap](https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/new-to-Phonegap.md)
-    * Curated Plugins - [Awesome Cordova Plugins](https://github.com/rdn87/awesome-cordova-plugins#list-plugins), [Telerik Verified Plugins](http://plugins.telerik.com/cordova)
+    * Curated Plugins - [Awesome Cordova Plugins](https://github.com/rdn87/awesome-cordova-plugins#list-plugins)
     * Finding Plugins - [plugreg](http://www.plugreg.com/) / [Plugin Search](https://cordova.apache.org/plugins/)
   * [React Native](http://facebook.github.io/react-native/) / [NativeScript](https://www.nativescript.org/) / [Weex](https://weex-project.io/)
     * [React Native Styling Cheat Sheet](https://github.com/vhpoet/react-native-styling-cheat-sheet)
@@ -832,9 +831,9 @@ A Subset for __Architecture and Infrastructure__
   * `document-write` - [PostScribe](https://www.npmjs.com/package/postscribe)
   * User Timing API - [marky](https://www.npmjs.com/package/marky)
 * Offline
-  * Service Work - [sw-toolbox](https://googlechrome.github.io/sw-toolbox/)
+  * Service Work - [Workbox](https://developers.google.com/web/tools/workbox/)
   * File / FileReader API
-    * [FileSaver.js](https://www.npmjs.com/package/file-saver)
+    * [FileSaver.js](https://www.npmjs.com/package/file-saver) / [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
     * [blob-util](https://www.npmjs.com/package/blob-util)
   * IndexedDB
     * LocalStorage API - [localForage](https://www.npmjs.com/package/localforage)
@@ -1016,7 +1015,8 @@ A Subset for __Architecture and Infrastructure__
   * Realtime / P2P - [Gun](https://www.npmjs.com/package/gun), [ShareDB](https://www.npmjs.com/package/sharedb)
 * NLP
   * [compromise](https://github.com/nlp-compromise/compromise) / [talisman](http://yomguithereal.github.io/talisman/)
-* ML
+* ML/DL
+  * [TensorFlow.js](https://js.tensorflow.org/)
   * [MLJS](https://www.npmjs.com/package/ml), [Synaptic](https://www.npmjs.com/package/synaptic)
   * [deeplearn.js](https://deeplearnjs.org/)
 
@@ -1061,7 +1061,7 @@ A Subset for __Architecture and Infrastructure__
       * [Preact](https://preactjs.com/) / [Inferno](https://infernojs.org/)
   * [Angular](https://angular.io/)
   * [Vue.js](https://vuejs.org/)
-  * Cross-framework
+  * Cross-framework
     * [vuera](https://github.com/akxcv/vuera)
 * Model / App State
   * [Redux](http://redux.js.org/)
@@ -1183,11 +1183,11 @@ A Subset for __Architecture and Infrastructure__
   * [WeUI](https://github.com/weui/weui)
   * [MJML](https://mjml.io/) / [Foundation for Emails 2](http://foundation.zurb.com/emails.html)
 * React
-  * [Material-UI](http://www.material-ui.com) / [React Toolbox](http://react-toolbox.com/)
-  * [Semantic UI React](https://react.semantic-ui.com)
   * [Reactstrap](https://reactstrap.github.io/) / [React Bootstrap](https://www.npmjs.com/package/react-bootstrap)
-  * [React Foundation](https://react.foundation/)
+  * [Material-UI](http://www.material-ui.com) / [React Toolbox](http://react-toolbox.com/)
   * [Ant Design](https://ant.design/) / [Ant Design Mobile](https://mobile.ant.design/)
+  * [Semantic UI React](https://react.semantic-ui.com)
+  * [React Foundation](https://react.foundation/)
   * [Blueprint](http://blueprintjs.com/)
   * [Grommet](https://grommet.github.io/)
   * [Elemental UI](http://elemental-ui.com/)

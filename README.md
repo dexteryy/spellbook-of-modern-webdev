@@ -2476,7 +2476,7 @@ A Subset for __Architecture and Infrastructure__
   * [CodePen](http://codepen.io/) / [CodeSandbox](https://codesandbox.io/)
     * CDN for npm - [unpkg](https://unpkg.com/)
   * [RunKit](https://runkit.com)
-  * [RequestBin](http://requestb.in/)
+  * [RequestBin](https://requestbin.com/)
   * [jsPerf](https://jsperf.com/)
   * [CSS in JS Playground](https://css-in-js-playground.com/)
   * [GraphQL Playground](https://github.com/graphcool/graphql-playground), [Apollo Launchpad](https://launchpad.graphql.com)

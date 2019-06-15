@@ -150,8 +150,8 @@
     - Output (Color / Style, Icon, Updating Log, Notice, Columns, Curses, Drawing...)
     - Delivery, OS, API, Parser...
   - [IDE / Editors](#ide--editors)
-    - VSCode Plugins (UI, Formating, Operating, Static Analysis, Docs, Assistant, Integration...)
-    - Atom Plugins (UI, Formating, Operating, Static Analysis, Docs, Assistant, Integration...)
+    - VSCode Plugins (UI, Formatting, Operating, Static Analysis, Docs, Assistant, Integration...)
+    - Atom Plugins (UI, Formatting, Operating, Static Analysis, Docs, Assistant, Integration...)
     - Out-of-the-box Atom IDE, Other Electron-based IDE, Programming Fonts...
   - [Useful Apps](#useful-apps)
     - Playground, Visual Tools, Viewer, Docs, Automation...
@@ -2370,7 +2370,7 @@ A Subset for __Architecture and Infrastructure__
       * [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
       * [SVG Icons](https://marketplace.visualstudio.com/items?itemName=idleberg.svg-icons)
       * [Icon Fonts](https://marketplace.visualstudio.com/items?itemName=idleberg.icon-fonts)
-  * Formating
+  * Formatting
     * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) / [stylefmt](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-stylefmt)
     * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
@@ -2424,7 +2424,7 @@ A Subset for __Architecture and Infrastructure__
     * [Emmet](https://atom.io/packages/emmet)
     * Snippets
       * [turbo-javascript](https://atom.io/packages/turbo-javascript)
-  * Formating
+  * Formatting
     * [auto-detect-indentation](https://atom.io/packages/auto-detect-indentation), [editorconfig](https://atom.io/packages/editorconfig)
     * [prettier-atom](https://atom.io/packages/prettier-atom)
     * [atom-stylefmt](https://atom.io/packages/stylefmt) / [postcss-sorting](https://atom.io/packages/postcss-sorting) / [atom-beautify](https://atom.io/packages/atom-beautify)

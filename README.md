@@ -54,6 +54,7 @@
 
 ## Table of Contents
 
+
 - [Platforms and Languages](#platforms-and-languages)
   - [Open Web Platform](#open-web-platform)
     - Learning, Reference, Visual Tools
@@ -62,12 +63,14 @@
     - HTML/DOM, Appearance, Interaction, Access, Network, Media, Graphics, Computing...
   - [CSS Features](#css-features)
     - RWD, Layout, Typography, Text, Animation, Effects...
-  - [Next Generation CSS](#next-generation-css)
+  - [Modern CSS / Next-Gen CSS](#modern-css--next-gen-css)
     - CSS Module, PostCSS, CSS in JS
     - Best Practices (Skeleton, Methodology, Code Style...)
     - Know More about Web Design / UI Design / UX Design (RWD, Atomic Design, Motion Design, Grid System, Typography, Style Guide...)
-  - [Next Generation JS](#next-generation-js)
+  - [Modern JS / Next-Gen JS](#modern-js--next-gen-js)
     - ES6+ Features, Intro to ES6+, Re-intro to JS, Important Proposals, Functional Programming, FRP, Static Typing, Code Style...
+  - [WebAssembly](#webassembly)
+    - Concepts, Features, Rust, ...
   - [Node.js](#nodejs)
     - Intro, Workshop, Best Practices...
   - [Platform Compatibility and Proposal Status](#platform-compatibility-and-proposal-status)
@@ -163,8 +166,8 @@ A Subset as a __Learning Path__
 1. [Open Web Platform](#open-web-platform)
 2. [HTML5 / Web APIs](#html5--web-apis)
 3. [CSS Features](#css-features)
-4. [Next Generation CSS](#next-generation-css)
-5. [Next Generation JS](#next-generation-js)
+4. [Modern CSS / Next-Gen CSS](#modern-css--next-gen-css)
+5. [Modern JS / Next-Gen JS](#modern-js--next-gen-js)
 6. [Platform Compatibility and Proposal Status](#platform-compatibility-and-proposal-status)
 7. [Network](#network)
 8. [Node.js](#nodejs)
@@ -223,24 +226,24 @@ A Subset for __Architecture and Infrastructure__
     * [Dive Into HTML5 - A Quite Biased History of HTML5](http://diveintohtml5.info/past.html)
     * [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/)
   * MDN's [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn)
-  * [Mastering CSS Principles: A Comprehensive Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
 * Reference
   * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
     * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference), [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model), [DOM Events](https://developer.mozilla.org/en-US/docs/Web/Events), [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+    * [MDN content Roadmap](https://trello.com/b/LFl3umOX/mdn-content-roadmap)
   * [Google Developers](https://developers.google.com/web/)
-    * [Web Fundamentals](https://developers.google.com/web/fundamentals/), [HTML5Rocks Archived Tutorials](https://www.html5rocks.com/en/tutorials/)
+    * [Web Fundamentals](https://developers.google.com/web/fundamentals/), [Update](https://developers.google.com/web/updates/), [HTML5Rocks Archived Tutorials](https://www.html5rocks.com/en/tutorials/)
   * Apple
-    * [WebKit JS](https://developer.apple.com/reference/webkitjs/), [WebKit DOM Programming Topics](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/SafariJSProgTopics)
-    * [Safari Web Content Guide](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/), [Safari HTML Reference](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html), [Safari CSS Reference](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariCSSRef/), [Safari CSS Visual Effects Guide](https://developer.apple.com/library/content/documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/)
-  * [Microsoft Edge Developer Guide](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide)
+    * [WebKit JS](https://developer.apple.com/reference/webkitjs/)
+  * [CSSDB](https://cssdb.org/)
   * CSS-Tricks's [CSS Almanac](https://css-tricks.com/almanac/), [Codrops' CSS Reference](https://tympanus.net/codrops/css_reference/)
+  * [Mastering CSS Principles: A Comprehensive Guide](https://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
   * [HTML: The Living Standard (Web Developer Edition)](https://developers.whatwg.org/)
     * [The Web platform: Browser technologies](https://platform.html5.org/)
   * [W3Fools](http://www.w3fools.com/)
     * [W3Schools Responds to W3Fools](https://readwrite.com/2011/01/17/w3schools-responds-to-w3fools/)
     * [Why shouldn't I use W3Schools?](https://codereview.meta.stackexchange.com/questions/4975/why-shouldnt-i-use-w3schools-as-reference), [Why do people hate W3schools?](https://www.quora.com/Why-do-people-hate-W3schools-com), [Does W3Schools really suck?](https://www.quora.com/Does-W3Schools-really-suck)
-* Visual Tools
-  * see _[Tooling > Useful Apps](#useful-apps) > Visual Tools_
+  * Visual Tools
+    * see _[Tooling > Useful Apps](#useful-apps) > Visual Tools_
 * Performance
   * Rendering
     * [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/), \
@@ -252,15 +255,15 @@ A Subset for __Architecture and Infrastructure__
     * [CSS Containment in Chrome 52](https://developers.google.com/web/updates/2016/06/css-containment)
   * Loading
     * [How DNS works](https://howdns.works/)
-    * [PageSpeed Insights Rules](https://developers.google.com/speed/docs/insights/rules)
-    * [Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/),
-       [CSS and the critical path](http://www.phpied.com/css-and-the-critical-path/)
+    * [Network resilience](https://web.dev/reliable)
     * [Evolution of Script Loading](https://www.stevesouders.com/blog/2010/12/06/evolution-of-script-loading/), [Browser script loading roundup](https://www.stevesouders.com/blog/2010/02/07/browser-script-loading-roundup/)
     * [JavaScript Start-up Performance](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
+    * [Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/),
+       [CSS and the critical path](http://www.phpied.com/css-and-the-critical-path/)
   * Offline
-    * [Offline UX Considerations](https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux)
-    * [The offline cookbook](https://jakearchibald.com/2014/offline-cookbook/)
+    * see _[HTML5 / Web APIs](#html5--web-apis) > Offline_
   * Measure
+    * [Performance budgets 101](https://web.dev/performance-budgets-101/)
     * [Measure Performance with the RAIL Model](https://developers.google.com/web/fundamentals/performance/rail)
     * [Measuring Page Load Speed with Navigation Timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/)
     * [Measuring network performance with Resource Timing API](https://developers.googleblog.com/2013/12/measuring-network-performance-with.html)
@@ -268,14 +271,25 @@ A Subset for __Architecture and Infrastructure__
     * [Why Web Developers Need to Care about Interactivity](https://philipwalton.com/articles/why-web-developers-need-to-care-about-interactivity/)
       * [requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)
       * [PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver)
+  * Optimization
+    * [Fast load times](https://web.dev/fast)
+    * [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
+    * [Performance audits](https://web.dev/lighthouse-performance)
+    * [Lighthouse Audit References](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)
 * Security
+  * [Safe and secure](https://web.dev/secure)
   * [The Tangled Web: A Guide to Securing Modern Web Applications](http://lcamtuf.coredump.cx/tangled/)
   * [HTML5 Security Cheatsheet](https://html5sec.org/)
-* Semantics / SEO / Accessibility
-  * [Let’s Talk about Semantics](http://html5doctor.com/lets-talk-about-semantics/)
-  * [SEO Tutorial For Beginners](https://www.hobo-web.co.uk/seo-tutorial/), \
-    Google's [Search Engine Optimization Starter Guide](http://www.google.com/webmasters/docs/search-engine-optimization-starter-guide.pdf)
-  * [The A11Y Project](http://a11yproject.com/), [Using ARIA](https://w3c.github.io/using-aria/)
+* Semantics
+  * SEO
+    * [Let’s Talk about Semantics](http://html5doctor.com/lets-talk-about-semantics/)
+    * [Easily discoverable](https://web.dev/discoverable)
+    * [SEO audits](https://web.dev/lighthouse-seo)
+    * [SEO Tutorial For Beginners](https://www.hobo-web.co.uk/seo-tutorial/), \
+      Google's [Search Engine Optimization Starter Guide](http://www.google.com/webmasters/docs/search-engine-optimization-starter-guide.pdf)
+  * Accessibility
+    * [Accessible to all](https://web.dev/accessible)
+    * [The A11Y Project](http://a11yproject.com/), [Using ARIA](https://w3c.github.io/using-aria/)
 
 \>\> Return to [Table of Contents](#table-of-contents)
 
@@ -327,6 +341,8 @@ A Subset for __Architecture and Infrastructure__
     * Workshop - [Codelabs - Real time communication with WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web/)
 * Offline
   * Overview
+    * [Offline UX Considerations](https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux)
+    * [The offline cookbook](https://jakearchibald.com/2014/offline-cookbook/)
     * [Offline First - HTML5 technologies for a faster, smarter, more engaging web](http://www.webdirections.org/offlineworkshop/ibooksDraft.pdf)
   * [Web Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API#database_connection)
   * [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader), [File](https://developer.mozilla.org/en-US/docs/Web/API/File), [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
@@ -337,7 +353,7 @@ A Subset for __Architecture and Infrastructure__
     * [Service Worker Cookbook](https://serviceworke.rs/)
     * Status - [Is ServiceWorker Ready?](https://jakearchibald.github.io/isserviceworkerready/)
   * [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
-    * [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
+    * [Progressive Web App Checklist](https://developers.google.com/web/progressive-web-apps/checklist), [PWA audits](https://web.dev/lighthouse-pwa)
     * [Offline Storage for Progressive Web Apps](https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa)
     * [The PRPL pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)
     * Workshop - [Codelabs - Your First Progressive Web App](https://codelabs.developers.google.com/codelabs/your-first-pwapp/)
@@ -359,16 +375,14 @@ A Subset for __Architecture and Infrastructure__
     * [The Book of Shaders](http://thebookofshaders.com/)
     * Workshop -[Shader School](https://github.com/stackgl/shader-school), [WebGL Workshop](https://github.com/stackgl/webgl-workshop), [WebGL Academy](http://www.webglacademy.com/)
     * [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/)
-  * [WebVR](https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API)
-    * Status - [WebVR Rocks](https://webvr.rocks/)
-    * Workshop - [Codelabs - Building for Virtual Reality on the Web](https://codelabs.developers.google.com/codelabs/webvr/)
+  * [WebXR / Immersive Web](https://github.com/immersive-web/webxr)
+    * [Welcome to the immersive web](https://developers.google.com/web/updates/2018/05/welcome-to-immersive)
+    * [Progressive WebXR](https://blog.mozvr.com/progressive-webxr-ar-store/)
 * Computing
   * [Web Cryptography](https://developer.mozilla.org/en-US/docs/Web/API/Crypto)
   * [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
-  * [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
-    * [WebAssembly.org](http://webassembly.org/)
-    * [An Abridged Cartoon Introduction To WebAssembly](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/)
-    * Workshop - [Codelabs - An Introduction to Web Assembly](https://codelabs.developers.google.com/codelabs/web-assembly-intro/)
+  * WebAssembly
+    * see _[WebAssembly](#webassembly)_
 
 \>\> Return to [Table of Contents](#table-of-contents)
 
@@ -382,9 +396,7 @@ A Subset for __Architecture and Infrastructure__
   * [@supports Rule (Feature Queries)](https://www.sitepoint.com/an-introduction-to-css-supports-rule-feature-queries/)
   * [Houdini](https://github.com/w3c/css-houdini-drafts/wiki)
     * [Houdini: Demystifying CSS](https://developers.google.com/web/updates/2016/05/houdini), [Houdini: Maybe The Most Exciting Development In CSS You've Never Heard Of](https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/)
-  * [CSSDB](https://cssdb.org/)
 * Responsive Web Design
-  * Intro - see _[Platforms and Languages > Next Generation CSS](#next-generation-css) > Know More about Web Design_
   * Media Queries
     * [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
   * Images
@@ -439,28 +451,23 @@ A Subset for __Architecture and Infrastructure__
 
 \>\> Return to [Table of Contents](#table-of-contents)
 
-### Next Generation CSS
+### Modern CSS / Next-Gen CSS
 
-* Preprocessor-based CSS
+* Component-based CSS
+  * Utility Class / Functional CSS / Utility-first CSS / Atomic CSS
+    * [The Case for Atomic / Utility-First CSS](https://johnpolacek.github.io/the-case-for-atomic-css/)
+      * [CSS Utility Classes and "Separation of Concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
+    * [A Year of Utility Classes](https://css-irl.info/a-year-of-utility-classes/)
+    * [So you need a CSS utility library?](https://css-tricks.com/need-css-utility-library/)
+    * see _[UI Toolkits](#ui-toolkits)_
   * [CSS Modules](https://github.com/css-modules/css-modules)
     * [The End of Global CSS](https://medium.com/seek-blog/the-end-of-global-css-90d2a4a06284)
     * Tools - see _[Tooling > Toolchain](#toolchain) > Builder / Bundler > Webpack_
-  * [PostCSS](http://postcss.org/)
-    * Intro
-      * [Meet PostCSS](http://www.meetpostcss.com/)
-      * [PostCSS – A Comprehensive Introduction](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
-      * [PostCSS – Sass Killer or Preprocessing Pretender?](https://ashleynolan.co.uk/blog/postcss-a-review)
-      * [PostCSS Playground](https://sneakertack.github.io/postcss-playground/)
-    * [CSSNext](http://cssnext.io/)
-      * [It’s Time To Start Using CSS Custom Properties](https://www.smashingmagazine.com/2017/04/start-using-css-custom-properties/)
-      * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
-    * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
-* [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
-  * Intro
-    * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
-    * [A Brief History of CSS-in-JS: How We Got Here and Where We’re Going](https://levelup.gitconnected.com/a-brief-history-of-css-in-js-how-we-got-here-and-where-were-going-ea6261c19f04), [The State of CSS](http://ryanogles.by/css/javascript/2017/05/25/the-state-of-css.html)
-    * [Comparison of CSS-in-JS solutions](http://michelebertoli.github.io/css-in-js/)
   * [Styled-Components](https://github.com/styled-components/styled-components) / [Emotion](https://emotion.sh/)
+    * [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
+      * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+      * [A Brief History of CSS-in-JS: How We Got Here and Where We’re Going](https://levelup.gitconnected.com/a-brief-history-of-css-in-js-how-we-got-here-and-where-were-going-ea6261c19f04), [The State of CSS](http://ryanogles.by/css/javascript/2017/05/25/the-state-of-css.html)
+      * [Comparison of CSS-in-JS solutions](http://michelebertoli.github.io/css-in-js/)
     * [Styled Components: Enforcing Best Practices In Component-Based Systems](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/)
     * [Writing your styles in JS ≠ writing inline styles](http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/)
     * Libraries
@@ -468,9 +475,17 @@ A Subset for __Architecture and Infrastructure__
       * [styled-normalize](https://github.com/sergeysova/styled-normalize) / [styled-sanitize](https://www.npmjs.com/package/styled-sanitize)
       * [styled-components-breakpoint](https://github.com/jameslnewell/styled-components-breakpoint)
       * [styled-tools](https://github.com/diegohaz/styled-tools)
-  * [Aphrodite](https://github.com/Khan/aphrodite)
-    * [Inline CSS at Khan Academy: Aphrodite](http://engineering.khanacademy.org/posts/aphrodite-inline-css.htm)
-  * [JSS](http://cssinjs.org/), [Radium](http://formidable.com/open-source/radium/)
+* Preprocessor-based CSS
+  * [PostCSS](http://postcss.org/)
+    * Intro
+      * [Meet PostCSS](http://www.meetpostcss.com/)
+      * [PostCSS – A Comprehensive Introduction](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
+      * [PostCSS – Sass Killer or Preprocessing Pretender?](https://ashleynolan.co.uk/blog/postcss-a-review)
+      * [PostCSS Playground](https://sneakertack.github.io/postcss-playground/)
+    * [Preset Env](https://preset-env.cssdb.org/features)
+      * [It’s Time To Start Using CSS Custom Properties](https://www.smashingmagazine.com/2017/04/start-using-css-custom-properties/)
+      * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
+    * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
 * Best Practices
   * [Sanitize.css](https://github.com/csstools/sanitize.css) / [Normalize.css](http://nicolasgallagher.com/about-normalize-css/) / [Reset.css](http://meyerweb.com/eric/tools/css/reset/)
   * Methodology
@@ -479,7 +494,7 @@ A Subset for __Architecture and Infrastructure__
     * [OOCSS](https://github.com/stubbornella/oocss/wiki)
       * [An Introduction To Object Oriented CSS (OOCSS)](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/)
     * [SMACSS](https://smacss.com/)
-    * [RSCSS](http://rscss.io/), [SOLID CSS](http://blog.millermedeiros.com/solid-css/), [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+    * [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/), [RSCSS](http://rscss.io/), [SOLID CSS](http://blog.millermedeiros.com/solid-css/)
     * [CSS Guidelines](https://cssguidelin.es/), [MaintainableCSS](https://maintainablecss.com/)
   * Code Style
     * [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
@@ -500,10 +515,6 @@ A Subset for __Architecture and Infrastructure__
         [Responsive Patterns](http://bradfrost.github.io/this-is-responsive/patterns.html), \
         [ResponsiveDesign.is Patterns](https://responsivedesign.is/patterns/)
       * [Responsive Data Table Roundup](https://css-tricks.com/responsive-data-table-roundup/)
-  * [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) ([Book](http://atomicdesign.bradfrost.com/table-of-contents/))
-    * [The Atomic Workflow — People, Process, And Making Design Systems Happen](https://www.smashingmagazine.com/atomic-design-workflow/)
-    * [The “Other” Interface: Atomic Design With Sass](https://www.smashingmagazine.com/2013/08/other-interface-atomic-design-sass/)
-    * [Atomic Design – Your Ultimate Guide to Scalable & Modular CSS (Sass)](https://blog.alexdevero.com/atomic-design-scalable-modular-css-sass/)
   * Motion Design
     * [Creating Usability with Motion: The UX in Motion Manifesto](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc)
     * [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
@@ -520,30 +531,37 @@ A Subset for __Architecture and Infrastructure__
       * [CSS with vertical rhythm](https://drewish.com/tools/vertical-rhythm/)
     * [More Meaningful Typography](https://alistapart.com/article/more-meaningful-typography)
       * [Modular Scale](http://www.modularscale.com/)
+  * [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) ([Book](http://atomicdesign.bradfrost.com/table-of-contents/))
+    * [The Atomic Workflow — People, Process, And Making Design Systems Happen](https://www.smashingmagazine.com/atomic-design-workflow/)
+    * [The “Other” Interface: Atomic Design With Sass](https://www.smashingmagazine.com/2013/08/other-interface-atomic-design-sass/)
+    * [Atomic Design – Your Ultimate Guide to Scalable & Modular CSS (Sass)](https://blog.alexdevero.com/atomic-design-scalable-modular-css-sass/)
   * Design System
     * [A comprehensive guide to design systems](https://www.invisionapp.com/blog/guide-to-design-systems/), [Design Systems Handbook](https://www.designbetter.co/design-systems-handbook/introducing-design-systems)
-    * [styled-system](https://github.com/jxnblk/styled-system)
-  * Style Guide
-    * [Style Guide Driven Development / Living Style Guides](http://styleguides.io/)
-    * Tools - see _[Tooling > Documentation](#documentation) > Style Guide_
-    * Reference
-      * Apple's [Human Interface Guidelines](https://developer.apple.com/design/)
-      * Google's [Material Design](https://material.io/)
-      * Microsoft's [Fluent Design System](http://fluent.microsoft.com/)
-      * Airbnb's [new design system](https://airbnb.design/building-a-visual-language/)
-      * Github's [Primer](http://primercss.io/)
-      * Atlassian's [Design Guidelines](https://atlassian.design/guidelines/product/overview)
-      * Salesforce's [Lightning Design System](https://www.lightningdesignsystem.com/)
-      * Yelp's [Styleguide](https://www.yelp.com/styleguide)
-      * IBM's [Living Language](https://www.ibm.com/design/language/)
-      * BBC's [GEL Guidelines](http://www.bbc.co.uk/gel/guidelines/)
-      * A List Apart's [pattern library](http://patterns.alistapart.com/)
-      * <span>USA</span>.gov's [Web Design Standards](https://standards.usa.gov/)
-      * MailChimp's [Email Design Guide](https://mailchimp.com/email-design-guide/)
+    * Design Tokens
+      * [Tokens in Design Systems](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421)
+      * [How to manage your Design Tokens with Style Dictionary](https://medium.com/@didoo/how-to-manage-your-design-tokens-with-style-dictionary-98c795b938aa)
+      * [What Are Design Tokens?](https://css-tricks.com/what-are-design-tokens/)
+    * Style Guide
+      * [Style Guide Driven Development / Living Style Guides](http://styleguides.io/)
+      * Tools - see _[Tooling > Documentation](#documentation) > Style Guide_
+      * Examples
+        * Apple's [Human Interface Guidelines](https://developer.apple.com/design/)
+        * Google's [Material Design](https://material.io/)
+        * Microsoft's [Fluent Design System](http://fluent.microsoft.com/)
+        * Airbnb's [new design system](https://airbnb.design/building-a-visual-language/)
+        * Github's [Primer](http://primercss.io/)
+        * Atlassian's [Design Guidelines](https://atlassian.design/guidelines/product/overview)
+        * Salesforce's [Lightning Design System](https://www.lightningdesignsystem.com/)
+        * Yelp's [Styleguide](https://www.yelp.com/styleguide)
+        * IBM's [Living Language](https://www.ibm.com/design/language/)
+        * BBC's [GEL Guidelines](http://www.bbc.co.uk/gel/guidelines/)
+        * A List Apart's [pattern library](http://patterns.alistapart.com/)
+        * <span>USA</span>.gov's [Web Design Standards](https://standards.usa.gov/)
+        * MailChimp's [Email Design Guide](https://mailchimp.com/email-design-guide/)
 
 \>\> Return to [Table of Contents](#table-of-contents)
 
-### Next Generation JS
+### Modern JS / Next-Gen JS
 
 * ES6+ Features
   * [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
@@ -663,6 +681,26 @@ A Subset for __Architecture and Infrastructure__
   * [JavaScript Clean Coding Best Practices](https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/)
 
 \>\> Return to [Table of Contents](#table-of-contents)
+
+### WebAssembly
+
+* References
+  * [WebAssembly.org](http://webassembly.org/)
+  * [MDN docs](https://developer.mozilla.org/en-US/docs/WebAssembly)
+* Concepts
+  * [WebAssembly High-Level Goals](https://github.com/WebAssembly/design/blob/master/HighLevelGoals.md)
+  * [Minimum Viable Product](https://github.com/WebAssembly/design/blob/master/MVP.md)
+  * [WebAssembly concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
+  * [An Abridged Cartoon Introduction To WebAssembly](https://www.smashingmagazine.com/2017/05/abridged-cartoon-introduction-webassembly/)
+* Features
+  * [Features to add after the MVP](https://github.com/WebAssembly/design/blob/master/FutureFeatures.md)
+  * [WebAssembly proposals](https://github.com/WebAssembly/proposals)
+* Workshop
+  * [Codelabs - An Introduction to Web Assembly](https://codelabs.developers.google.com/codelabs/web-assembly-intro/)
+* Languages
+  * [Rust](https://www.rust-lang.org)
+    * [Rust and WebAssembly](https://rustwasm.github.io/docs.html)
+      * [The Rust Wasm Book](https://rustwasm.github.io/docs/book/)
 
 ### Node.js
 

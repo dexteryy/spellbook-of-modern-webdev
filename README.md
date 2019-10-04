@@ -2498,6 +2498,7 @@ A Subset for __Architecture and Infrastructure__
   * [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
   * [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
   * [Fira Mono](http://mozilla.github.io/Fira/)
+  * [Fira Code](https://github.com/tonsky/FiraCode)
   * [Google Noto Mono](https://www.google.com/get/noto/)
   * [Droid Sans Mono](https://fonts.google.com/specimen/Droid+Sans+Mono)
   * [Space Mono](https://fonts.google.com/specimen/Space%20Mono)

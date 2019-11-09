@@ -1668,7 +1668,7 @@ A Subset for __Architecture and Infrastructure__
       * Configuration - [Hapi](https://hapijs.com/)
       * Realtime - [Feathers](https://feathersjs.com/)
   * Microservices
-    * [Micro](https://www.npmjs.com/package/micro) / [Seneca](http://senecajs.org/) / [StdLib](https://stdlib.com/)
+    * [Micro](https://www.npmjs.com/package/micro) / [Moleculer](https://moleculer.services/) / [Seneca](http://senecajs.org/) / [StdLib](https://stdlib.com/)
   * Serverless
     * [Serverless Framework](https://github.com/serverless/serverless)
     * [IronFunctions](https://github.com/iron-io/functions)

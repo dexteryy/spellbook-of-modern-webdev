@@ -1032,6 +1032,7 @@ A Subset for __Architecture and Infrastructure__
     * QR Code / Barcode - [qrcode](https://www.npmjs.com/package/qrcode) / [jsbarcode](https://www.npmjs.com/package/jsbarcode)
 * Logic
   * Rate Limiter - [Bottleneck](https://www.npmjs.com/package/bottleneck) / [Limiter](https://www.npmjs.com/package/limiter)
+  * Networked Mutex - [live-mutex](https://github.com/ORESoftware/live-mutex)
 * Network
   * HTTP / XHR
     * Low-level - [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch)

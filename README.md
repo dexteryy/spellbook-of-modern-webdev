@@ -2536,7 +2536,7 @@ A Subset for __Architecture and Infrastructure__
   * JS
     * [Keyboard Event Viewer](https://w3c.github.io/uievents/tools/key-event-viewer.html)
     * [Web Audio Playground](http://webaudioplayground.appspot.com/)
-    * [Regex101](https://regex101.com/) / [Debuggex](https://www.debuggex.com/)
+    * [Regex101](https://regex101.com/) / [Debuggex](https://www.debuggex.com/) / [ExtendsClass](https://extendsclass.com/regex-tester.html)
 * Viewer
   * [JSON Viewer](https://github.com/tulios/json-viewer), [XML Tree](https://chrome.google.com/webstore/detail/xml-tree/gbammbheopgpmaagmckhpjbfgdfkpadb)
   * [JS Nice](http://www.jsnice.org/) / [JS Beautifier](http://jsbeautifier.org/)

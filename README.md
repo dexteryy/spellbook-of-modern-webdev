@@ -219,12 +219,11 @@ A Subset for __Architecture and Infrastructure__
 ### Open Web Platform
 
 * Learning
-  * [What is the Internet](http://www.20thingsilearned.com/en-US/what-is-the-internet/), [How does the Internet work](https://www.w3.org/wiki/How_does_the_Internet_work)
+  * [How does the Internet work](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
     * HTTP - see _[Server Side > Network](#network)_
   * [Evolution of the Web](http://www.evolutionoftheweb.com/)
     * [Timeline of web browsers](https://en.wikipedia.org/wiki/Timeline_of_web_browsers)
     * [Dive Into HTML5 - A Quite Biased History of HTML5](http://diveintohtml5.info/past.html)
-    * [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/)
   * MDN's [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn)
 * Reference
   * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)

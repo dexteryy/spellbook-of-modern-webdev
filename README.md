@@ -219,7 +219,7 @@ A Subset for __Architecture and Infrastructure__
 ### Open Web Platform
 
 * Learning
-  * [What is the Internet](http://www.20thingsilearned.com/en-US/what-is-the-internet/), [How does the Internet work](https://www.w3.org/wiki/How_does_the_Internet_work)
+  * [How does the Internet work](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
     * HTTP - see _[Server Side > Network](#network)_
   * [Evolution of the Web](http://www.evolutionoftheweb.com/)
     * [Timeline of web browsers](https://en.wikipedia.org/wiki/Timeline_of_web_browsers)

@@ -224,7 +224,6 @@ A Subset for __Architecture and Infrastructure__
   * [Evolution of the Web](http://www.evolutionoftheweb.com/)
     * [Timeline of web browsers](https://en.wikipedia.org/wiki/Timeline_of_web_browsers)
     * [Dive Into HTML5 - A Quite Biased History of HTML5](http://diveintohtml5.info/past.html)
-    * [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/)
   * MDN's [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn)
 * Reference
   * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)

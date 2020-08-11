@@ -2284,7 +2284,7 @@ A Subset for __Architecture and Infrastructure__
       * [A Guide to Proper Error Handling in JavaScript](https://www.sitepoint.com/proper-error-handling-javascript/)
     * Services
       * [TrackJS](https://trackjs.com/) / [Errorception](https://errorception.com/)
-      * [Sentry](https://sentry.io/for/javascript/) / [Rollbar](https://rollbar.com/docs/notifier/rollbar.js/) / [Bugsnag](https://docs.bugsnag.com/platforms/browsers/) / [Airbrake](https://airbrake.io/languages/javascript_exception_handler) / [Raygun](https://raygun.com/)
+      * [Sentry](https://sentry.io/for/javascript/) / [Rollbar](https://rollbar.com/docs/notifier/rollbar.js/) / [Bugsnag](https://docs.bugsnag.com/platforms/browsers/) / [Airbrake](https://airbrake.io/languages/javascript_exception_handler) / [Raygun](https://raygun.com/) / [elmah.io](https://elmah.io/features/clientside-logging/)
   * Logging
     * Global
       * [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) / [Google Stackdriver](https://cloud.google.com/stackdriver/)

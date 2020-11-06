@@ -1921,8 +1921,9 @@ A Subset for __Architecture and Infrastructure__
   * Functional Testing / E2E Testing
     * Headless Browser Automation
       * DevTools API
-        * Headless Chrome - [Puppeteer](https://github.com/GoogleChrome/puppeteer) / [Chromy](https://www.npmjs.com/package/chromy)
+        * Headless Chrome - [Puppeteer](https://github.com/GoogleChrome/puppeteer) / [Playwright](https://github.com/microsoft/playwright) / [Chromy](https://www.npmjs.com/package/chromy)
           * [End-to-end Tests that Don’t Suck with Puppeteer](https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/)
+          * [theheadless.dev - practical guides for Puppeteer and Playwright](https://theheadless.dev) 
           * AWS Lambda - [Chromeless](https://www.npmjs.com/package/chromeless)
         * electron-prebuilt - [Nightmare](https://github.com/segmentio/nightmare)
       * WebDriver API - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
@@ -2300,6 +2301,8 @@ A Subset for __Architecture and Infrastructure__
       * [OneAPM](https://www.oneapm.com/) / [听云](http://www.tingyun.com/)
       * [监控宝](https://www.jiankongbao.com/) / [百度云观测](http://ce.baidu.com/) / [360网站服务监控](http://jk.cloud.360.cn/) / [腾讯云-云拨测 CAT](https://www.qcloud.com/product/cat)
       * [阿里云 Node.js 性能平台](https://www.aliyun.com/product/nodejs)
+  * Active Monitoring
+    * [Checkly](https://checklyhq.com)
 
 \>\> Return to [Table of Contents](#table-of-contents)
 

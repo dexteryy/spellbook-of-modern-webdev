@@ -1732,6 +1732,7 @@ A Subset for __Architecture and Infrastructure__
   * [oauth](https://www.npmjs.com/package/oauth)
   * OAuth Providers - [hello.js](http://adodson.com/hello.js/) / [grant](https://www.npmjs.com/package/grant)
   * [svg-captcha](https://github.com/lemonce/svg-captcha)
+  * LoginRadius SDK - [loginradius-nodejs-sdk](https://github.com/LoginRadius/node-js-sdk)
 * Storage
   * NOSQL
     * Redis Client - [ioredis](https://github.com/luin/ioredis)
@@ -1813,6 +1814,7 @@ A Subset for __Architecture and Infrastructure__
   * Auth
     * [Auth0](https://auth0.com/) / [Amazon Cognito](https://aws.amazon.com/cognito/) / [Firebase Authentication](https://firebase.google.com/products/auth/)
     * [OAuth.io](https://oauth.io/)
+    * [LoginRadius](https://www.loginradius.com)
     * CAPTCHA
       * [reCAPTCHA](https://www.google.com/recaptcha/)
   * Search - [Algolia](https://www.algolia.com/)

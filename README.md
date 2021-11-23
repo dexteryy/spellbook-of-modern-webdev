@@ -898,6 +898,7 @@ A Subset for __Architecture and Infrastructure__
       * [improved search in the npm CLI (and how we got here)](http://blog.npmjs.org/post/156076312840/search-update), \
         [Better search is here!](http://blog.npmjs.org/post/154912817335/better-search-is-here)
     * [Github Search (sort by stars, for JS)](https://github.com/search?l=JavaScript&q=stars%3A%3E1&s=stars&type=Repositories)
+    * [Compare open-source packages with powerful metrics and user reviews](https://openbase.com)
   * Stats
     * [npm trends](http://www.npmtrends.com/)
     * [NPMCompare](https://npmcompare.com/)

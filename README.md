@@ -1927,8 +1927,9 @@ A Subset for __Architecture and Infrastructure__
         * electron-prebuilt - [Nightmare](https://github.com/segmentio/nightmare)
       * WebDriver API - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
           * AWS Lambda - [Lambdium](https://github.com/smithclay/lambdium)
-    * Cloud - [BrowserStack Automate](https://www.browserstack.com/automate) / [Sauce Labs](https://saucelabs.com/open-source#automated-testing-platform)
+    * Cloud - LambdaTest Automation](https://www.lambdatest.com/selenium-automation) / [BrowserStack Automate](https://www.browserstack.com/automate) / [Sauce Labs](https://saucelabs.com/open-source#automated-testing-platform)
   * Visual Testing
+    * [LambdaTest](https://www.lambdatest.com/)
     * [React Storybook](https://storybooks.js.org/) / [React Cosmos](https://github.com/react-cosmos/react-cosmos)
     * [BrowserStack](https://www.browserstack.com/)
   * Monkey Testing

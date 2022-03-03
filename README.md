@@ -1398,6 +1398,7 @@ A Subset for __Architecture and Infrastructure__
   * Canvas
     * [Pixi.js](http://www.pixijs.com/) / [Fabric.js](https://github.com/kangax/fabric.js)
     * [React Pixi](https://reactpixi.org/) / [ReactPixiFiber](https://github.com/michalochman/react-pixi-fiber) / [React Konva](https://www.npmjs.com/package/react-konva)
+    * [ZIM](https://zimjs.com)
     * Isometric - [obelisk.js](https://www.npmjs.com/package/obelisk.js)
     * Creative - [p5.js](https://www.npmjs.com/package/p5)
     * Fonts - [opentype.js](https://opentype.js.org/)

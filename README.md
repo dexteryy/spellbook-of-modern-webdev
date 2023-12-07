@@ -1809,7 +1809,7 @@ A Subset for __Architecture and Infrastructure__
     * GraphQL
       * [Graphcool](https://www.graph.cool/) / [Scaphold](https://scaphold.io/)
     * CMS
-      * [WordPress.com REST API](https://developer.wordpress.com/docs/api/) / [Contentful](https://www.contentful.com/) / [DatoCMS](https://www.datocms.com/) / [GraphCMS](https://graphcms.com/) / [Baasic](http://www.baasic.com/)
+      * [WordPress.com REST API](https://developer.wordpress.com/docs/api/) / [Contentful](https://www.contentful.com/) / [DatoCMS](https://www.datocms.com/) / [GraphCMS](https://graphcms.com/) / [Baasic](http://www.baasic.com/) / [BCMS](https://thebcms.com/)
   * Auth
     * [Auth0](https://auth0.com/) / [Amazon Cognito](https://aws.amazon.com/cognito/) / [Firebase Authentication](https://firebase.google.com/products/auth/)
     * [OAuth.io](https://oauth.io/)
